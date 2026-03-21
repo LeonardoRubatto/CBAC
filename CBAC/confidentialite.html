@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+<meta charset="UTF-8">
+<script>(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — NoteBac</title>
+<meta name="description" content="Politique de confidentialité, RGPD et conditions d'utilisation de NoteBac (bac.wecalc.fr). Vos données restent sur votre appareil.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://bac.wecalc.fr/confidentialite.html">
+  <link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+:root {
+  --blue: #0F766E; --blue-d: #0d5e57;
+  --green: #059669; --green-l: #ECFDF5;
+  --red: #DC2626;
+  --gray-50: #F9FAFB; --gray-100: #F3F4F6; --gray-200: #E5E7EB;
+  --gray-400: #9CA3AF; --gray-500: #6B7280; --gray-700: #374151; --gray-900: #111827;
+  --white: #FFFFFF; --body-bg: #dde6ef;
+  --radius-sm: 8px;
+  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+[data-theme="dark"] {
+  --body-bg: #080e18; --white: #0f172a; --gray-50: #2a3442; --gray-100: #313c4a;
+  --gray-200: #3e4a5a; --gray-400: #7a8798; --gray-500: #b8c2cf;
+  --gray-700: #d6dde6; --gray-900: #ffffff;
+}
+[data-theme="dark"] body { background: var(--body-bg); color: var(--gray-900); }
+[data-theme="dark"] .legal-content, [data-theme="dark"] .toc { background: var(--white); border-color: var(--gray-200); }
+[data-theme="dark"] .subnav-bar a { background: var(--white); border-color: var(--gray-200); color: var(--gray-900); }
+[data-theme="dark"] .subnav-bar a:hover { background: var(--gray-100); }
+[data-theme="dark"] table { background: var(--white); }
+[data-theme="dark"] th { background: var(--gray-100); color: var(--gray-900); border-color: var(--gray-200); }
+[data-theme="dark"] td { color: var(--gray-700); border-color: var(--gray-200); }
+[data-theme="dark"] p, [data-theme="dark"] li { color: var(--gray-700); }
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3, [data-theme="dark"] strong { color: var(--gray-900); }
+[data-theme="dark"] .info-box, [data-theme="dark"] .warning-box, [data-theme="dark"] .success-box { color: var(--gray-900); }
+[data-theme="dark"] .theme-toggle { background: var(--white); border-color: var(--gray-200); }
+.theme-toggle {
+  position: fixed; top: 16px; right: 16px; width: 40px; height: 40px;
+  border-radius: 50%; border: 1.5px solid var(--gray-200); background: var(--white);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.10); transition: all .2s; z-index: 1000;
+}
+.theme-toggle:hover { border-color: var(--blue); transform: scale(1.08); }
+.ui-icon { display: inline-flex; align-items: center; justify-content: center; }
+.ui-icon img { display: block; }
+body { font-family: var(--font-main); background: var(--body-bg); color: var(--gray-900); line-height: 1.6; }
+.container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+.legal-header { text-align: center; margin-bottom: 48px; }
+.legal-header h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.5px; }
+.legal-header p { font-size: 15px; color: var(--gray-500); margin-bottom: 8px; }
+.legal-content { background: var(--white); border-radius: 14px; border: 1px solid var(--gray-200); padding: 40px; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+.legal-section { margin-bottom: 36px; }
+.legal-section:last-child { margin-bottom: 0; }
+.legal-section h2 { font-size: 18px; font-weight: 700; color: var(--gray-900); margin-bottom: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--gray-100); }
+.legal-section h3 { font-size: 14px; font-weight: 700; color: var(--gray-700); margin-top: 16px; margin-bottom: 10px; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+.legal-section p { font-size: 14px; color: var(--gray-700); line-height: 1.7; margin-bottom: 12px; }
+.legal-section ul { list-style: none; padding-left: 0; margin-bottom: 12px; }
+.legal-section ul li { font-size: 14px; color: var(--gray-700); line-height: 1.7; margin-bottom: 8px; padding-left: 24px; position: relative; }
+.legal-section ul li::before { content: "\25AA"; position: absolute; left: 8px; color: var(--blue); font-size: 12px; }
+.legal-section a { color: var(--blue); text-decoration: none; font-weight: 600; }
+.legal-section a:hover { text-decoration: underline; }
+.info-box { background: #F0FDFA; border: 1.5px solid #99f6e4; border-left: 4px solid var(--blue); border-radius: 10px; padding: 16px; margin: 20px 0; font-size: 13px; color: var(--blue-d); line-height: 1.6; }
+.warning-box { background: #FEF2F2; border: 1.5px solid #FECACA; border-left: 4px solid var(--red); border-radius: 10px; padding: 16px; margin: 20px 0; font-size: 13px; color: #991B1B; line-height: 1.6; }
+.success-box { background: var(--green-l); border: 1.5px solid #A7F3D0; border-left: 4px solid var(--green); border-radius: 10px; padding: 16px; margin: 20px 0; font-size: 13px; color: #065F46; line-height: 1.6; }
+.toc { background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: 10px; padding: 20px; margin-bottom: 32px; }
+.toc h3 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--gray-500); margin-bottom: 12px; }
+.toc ol { list-style: decimal; padding-left: 20px; }
+.toc ol li { font-size: 13px; color: var(--gray-700); margin-bottom: 6px; }
+.toc ol li a { color: var(--blue); text-decoration: none; }
+.toc ol li a:hover { text-decoration: underline; }
+.last-update { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--gray-200); font-size: 12px; color: var(--gray-400); }
+.subnav-bar { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 0 0 32px; }
+.subnav-bar a { padding: 10px 18px; border-radius: var(--radius-sm); background: var(--white); color: var(--blue); text-decoration: none; font-size: 13px; font-weight: 600; border: 1.5px solid var(--gray-200); transition: all 150ms ease; }
+.subnav-bar a:hover { border-color: var(--blue); background: #F0FDFA; }
+.subnav-bar a.active { background: var(--blue); color: var(--white); border-color: var(--blue); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { padding: 10px; border: 1px solid var(--gray-200); text-align: left; background: var(--gray-100); font-size: 12px; font-weight: 700; color: var(--gray-700); }
+td { padding: 10px; border: 1px solid var(--gray-200); color: var(--gray-700); }
+@media (max-width: 640px) { .container { padding: 24px 16px; } .legal-header h1 { font-size: 24px; } .legal-content { padding: 24px; } .subnav-bar { flex-direction: column; } .subnav-bar a { width: 100%; text-align: center; } }
+</style>
+</head>
+<body>
+
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Basculer le th&egrave;me">
+  <span class="ui-icon" id="themeIcon" data-icon="theme-dark.svg" aria-hidden="true"></span>
+</button>
+
+<div class="container">
+
+  <div class="legal-header">
+    <h1>Donn&eacute;es l&eacute;gales &mdash; NoteBac</h1>
+    <p>Protection de vos donn&eacute;es personnelles et respect du RGPD</p>
+    <p><a href="https://bac.wecalc.fr/" style="color:var(--blue);text-decoration:none;font-weight:600;">&larr; Retour au simulateur bac</a></p>
+  </div>
+
+  <nav class="subnav-bar" id="subnav-legal">
+    <a href="#mentions"        data-target="mentions">Mentions l&eacute;gales</a>
+    <a href="#confidentialite" data-target="confidentialite" class="active">Politique de confidentialit&eacute;</a>
+    <a href="#conditions"      data-target="conditions">Conditions d&rsquo;utilisation</a>
+    <a href="#contact"         data-target="contact">Contact</a>
+  </nav>
+
+  <div class="legal-content">
+
+    <!-- MENTIONS LÉGALES -->
+    <section id="mentions" class="tab-content">
+      <div class="legal-section">
+        <h2>Mentions l&eacute;gales</h2>
+        <p><strong>&Eacute;diteur du site :</strong> Leonardo Rubatto</p>
+        <p><strong>Statut :</strong> Personne physique</p>
+        <p><strong>Ville de r&eacute;sidence :</strong> Paris, France</p>
+        <p><strong>Directeur de la publication :</strong> Leonardo Rubatto</p>
+        <p><strong>Contact :</strong> <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a></p>
+        <p><strong>H&eacute;bergement :</strong><br>
+          Cloudflare Inc.<br>
+          101 Townsend Street<br>
+          San Francisco, CA 94107<br>
+          United States
+        </p>
+        <p>Le site propose un simulateur de moyenne du baccalaur&eacute;at g&eacute;n&eacute;ral et technologique standard, conforme aux r&egrave;gles officielles du Minist&egrave;re de l&rsquo;&Eacute;ducation nationale en vigueur pour les sessions 2026 et 2027+. Le calcul s&rsquo;effectue enti&egrave;rement dans le navigateur de l&rsquo;utilisateur.</p>
+        <p>Aucune donn&eacute;e saisie dans le simulateur n&rsquo;est transmise &agrave; un serveur. Les notes peuvent &ecirc;tre sauvegard&eacute;es localement dans le navigateur via localStorage.</p>
+      </div>
+    </section>
+
+    <!-- CONFIDENTIALITÉ -->
+    <section id="confidentialite" class="tab-content active">
+
+      <div class="toc">
+        <h3>Sommaire</h3>
+        <ol>
+          <li><a href="#c1">Responsable du traitement</a></li>
+          <li><a href="#c2">Donn&eacute;es collect&eacute;es</a></li>
+          <li><a href="#c3">Finalit&eacute;s et bases l&eacute;gales</a></li>
+          <li><a href="#c4">Cookies et localStorage</a></li>
+          <li><a href="#c5">Droits des personnes</a></li>
+          <li><a href="#c6">S&eacute;curit&eacute;</a></li>
+          <li><a href="#c7">Dur&eacute;e de conservation</a></li>
+          <li><a href="#c8">Partage des donn&eacute;es</a></li>
+          <li><a href="#c9">Transferts internationaux</a></li>
+          <li><a href="#c10">Contact et r&eacute;clamation</a></li>
+        </ol>
+      </div>
+
+      <div class="info-box">
+        <strong>R&eacute;sum&eacute; :</strong> NoteBac ne collecte aucune donn&eacute;e personnelle identifiable. Le simulateur fonctionne enti&egrave;rement dans votre navigateur. Seuls des donn&eacute;es techniques minimales (logs Cloudflare) et des pr&eacute;f&eacute;rences locales (localStorage) sont trait&eacute;es.
+      </div>
+
+      <div class="legal-section" id="c1">
+        <h2>1. Responsable du traitement</h2>
+        <p><strong>Identit&eacute; :</strong> Leonardo Rubatto</p>
+        <p><strong>Adresse :</strong> Paris, France</p>
+        <p><strong>Email :</strong> <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a></p>
+      </div>
+
+      <div class="legal-section" id="c2">
+        <h2>2. Donn&eacute;es collect&eacute;es</h2>
+        <h3>Donn&eacute;es saisies dans le simulateur</h3>
+        <p>Les notes, moyennes et param&egrave;tres saisis (session, voie, notes de contr&ocirc;le continu, &eacute;preuves, options, rattrapage) ne sont <strong>jamais envoy&eacute;s &agrave; un serveur</strong>. Ils restent sur votre appareil.</p>
+        <p>Avec votre consentement, ces param&egrave;tres peuvent &ecirc;tre enregistr&eacute;s dans le localStorage de votre navigateur pour m&eacute;moriser vos notes entre les sessions.</p>
+        <h3>Donn&eacute;es techniques automatiques</h3>
+        <p>Notre h&eacute;bergeur Cloudflare peut collecter automatiquement : adresse IP, navigateur, syst&egrave;me d&rsquo;exploitation, URL visit&eacute;e, horodatage. Ces donn&eacute;es sont utilis&eacute;es exclusivement pour la s&eacute;curit&eacute; et la performance du r&eacute;seau.</p>
+      </div>
+
+      <div class="legal-section" id="c3">
+        <h2>3. Finalit&eacute;s et bases l&eacute;gales</h2>
+        <table>
+          <thead><tr><th>Finalit&eacute;</th><th>Base l&eacute;gale (RGPD)</th></tr></thead>
+          <tbody>
+            <tr><td>Sauvegarde des notes dans localStorage</td><td>Int&eacute;r&ecirc;t l&eacute;gitime / consentement</td></tr>
+            <tr><td>M&eacute;morisation du th&egrave;me (clair/sombre)</td><td>Int&eacute;r&ecirc;t l&eacute;gitime</td></tr>
+            <tr><td>Logs techniques Cloudflare</td><td>Int&eacute;r&ecirc;t l&eacute;gitime (s&eacute;curit&eacute;)</td></tr>
+            <tr><td>R&eacute;ponse aux emails de contact</td><td>Consentement de la personne concern&eacute;e</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="legal-section" id="c4">
+        <h2>4. Cookies et localStorage</h2>
+        <p>Ce site n&rsquo;utilise <strong>aucun cookie publicitaire, analytique ou traceur tiers</strong>.</p>
+        <h3>localStorage (stockage local)</h3>
+        <p>Si vous acceptez les cookies essentiels, les cl&eacute;s suivantes sont &eacute;crites dans le localStorage de votre navigateur :</p>
+        <ul>
+          <li><strong>calc_bac_state_v1 :</strong> vos param&egrave;tres de simulation (notes, session, voie)</li>
+          <li><strong>calc_bac_cookies_v1 :</strong> vos pr&eacute;f&eacute;rences de consentement</li>
+          <li><strong>theme :</strong> votre pr&eacute;f&eacute;rence de th&egrave;me (clair/sombre)</li>
+        </ul>
+        <p>Ces donn&eacute;es ne quittent jamais votre navigateur. Vous pouvez les supprimer &agrave; tout moment depuis les param&egrave;tres de votre navigateur.</p>
+        <div class="success-box">
+          <strong>Exemption CNIL :</strong> Le stockage local utilis&eacute; ici est strictement n&eacute;cessaire au fonctionnement demand&eacute; par l&rsquo;utilisateur et rel&egrave;ve de l&rsquo;exemption de consentement pr&eacute;vue par les lignes directrices CNIL sur les cookies et traceurs.
+        </div>
+      </div>
+
+      <div class="legal-section" id="c5">
+        <h2>5. Droits des personnes</h2>
+        <p>Conform&eacute;ment au RGPD (articles 15 &agrave; 22), vous disposez des droits suivants :</p>
+        <ul>
+          <li><strong>Acc&egrave;s :</strong> obtenir une copie de vos donn&eacute;es</li>
+          <li><strong>Rectification :</strong> corriger des donn&eacute;es inexactes</li>
+          <li><strong>Effacement :</strong> demander la suppression de vos donn&eacute;es</li>
+          <li><strong>Limitation :</strong> restreindre le traitement</li>
+          <li><strong>Portabilit&eacute; :</strong> recevoir vos donn&eacute;es dans un format structur&eacute;</li>
+          <li><strong>Opposition :</strong> vous opposer &agrave; un traitement bas&eacute; sur l&rsquo;int&eacute;r&ecirc;t l&eacute;gitime</li>
+        </ul>
+        <p>Pour exercer ces droits : <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a> — R&eacute;ponse sous 30 jours.</p>
+        <p>Pour les donn&eacute;es localStorage, vous pouvez les supprimer directement dans votre navigateur (Param&egrave;tres &rarr; Confidentialit&eacute; &rarr; Cookies et donn&eacute;es de sites).</p>
+      </div>
+
+      <div class="legal-section" id="c6">
+        <h2>6. S&eacute;curit&eacute;</h2>
+        <p>Le site est d&eacute;ploy&eacute; via Cloudflare Pages avec les mesures de s&eacute;curit&eacute; suivantes :</p>
+        <ul>
+          <li>HTTPS strict avec HSTS</li>
+          <li>En-t&ecirc;tes de s&eacute;curit&eacute; (CSP, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)</li>
+          <li>Aucun JavaScript tiers non v&eacute;rifi&eacute; — uniquement jsPDF via cdnjs avec int&eacute;grit&eacute; SRI</li>
+          <li>Aucune base de donn&eacute;es ni traitement c&ocirc;t&eacute; serveur</li>
+        </ul>
+      </div>
+
+      <div class="legal-section" id="c7">
+        <h2>7. Dur&eacute;e de conservation</h2>
+        <table>
+          <thead><tr><th>Type de donn&eacute;es</th><th>Dur&eacute;e de conservation</th></tr></thead>
+          <tbody>
+            <tr><td>Donn&eacute;es localStorage (notes, th&egrave;me)</td><td>Jusqu&rsquo;&agrave; effacement par l&rsquo;utilisateur</td></tr>
+            <tr><td>Logs serveur Cloudflare (IP, acc&egrave;s)</td><td>Maximum 30 jours</td></tr>
+            <tr><td>Emails envoy&eacute;s par l&rsquo;utilisateur</td><td>Maximum 3 ans</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="legal-section" id="c8">
+        <h2>8. Partage de vos donn&eacute;es</h2>
+        <p><strong>Vos donn&eacute;es ne sont jamais vendues, lou&eacute;es ou partag&eacute;es.</strong></p>
+        <h3>Tiers autoris&eacute;s &agrave; acc&eacute;der &agrave; vos donn&eacute;es</h3>
+        <ul>
+          <li><strong>H&eacute;bergeur/CDN (Cloudflare Inc.) :</strong> Infrastructure technique (adresse IP, logs de s&eacute;curit&eacute; uniquement)</li>
+          <li><strong>Autorit&eacute;s l&eacute;gales :</strong> Si l&eacute;galement requises (mandat judiciaire, CNIL)</li>
+        </ul>
+        <h3>Partenaires affili&eacute;s</h3>
+        <p>Les liens vers <strong>Kartable, SchoolMouv, Nomad Education et Fnac</strong> sont affili&eacute;s. En cliquant, vous acc&eacute;dez &agrave; leurs sites respectifs soumis &agrave; leurs propres politiques de confidentialit&eacute;. NoteBac n&rsquo;est pas responsable de leur traitement des donn&eacute;es.</p>
+      </div>
+
+      <div class="legal-section" id="c9">
+        <h2>9. Transferts internationaux</h2>
+        <p><strong>H&eacute;bergeur et CDN :</strong> Le site est distribu&eacute; via Cloudflare Inc. (101 Townsend Street, San Francisco, CA 94107, USA). Cloudflare dispose d&rsquo;une conformit&eacute; RGPD document&eacute;e via des Clauses Contractuelles Types (CCT/SCC) conform&eacute;ment &agrave; l&rsquo;article 46 du RGPD. Aucun autre transfert vers des pays tiers n&rsquo;est effectu&eacute; sans base l&eacute;gale appropri&eacute;e.</p>
+      </div>
+
+      <div class="legal-section" id="c10">
+        <h2>10. Contact et r&eacute;clamation</h2>
+        <h3>Questions sur vos donn&eacute;es ?</h3>
+        <p><strong>Email :</strong> <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a></p>
+        <p><strong>D&eacute;lai :</strong> R&eacute;ponse sous 30 jours</p>
+        <h3>D&eacute;poser une r&eacute;clamation aupr&egrave;s de la CNIL</h3>
+        <p>Si vous estimez que nous violons vos droits :<br>
+          <strong>CNIL</strong> &mdash; 3 Place de Fontenoy, 75007 Paris, France<br>
+          <strong>T&eacute;l. :</strong> +33 (0)1 53 73 22 22 &mdash;
+          <strong>Site :</strong> <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a>
+        </p>
+      </div>
+
+      <div class="legal-section">
+        <h2>Modifications de cette politique</h2>
+        <p>NoteBac peut modifier cette politique &agrave; tout moment. Les changements seront annonc&eacute;s sur cette page avec la date de mise &agrave; jour.</p>
+      </div>
+
+    </section>
+
+    <!-- CONDITIONS D'UTILISATION -->
+    <section id="conditions" class="tab-content">
+      <div class="legal-section">
+        <h2>Conditions d&rsquo;utilisation</h2>
+        <p>Le site propose un simulateur de la moyenne du baccalaur&eacute;at g&eacute;n&eacute;ral ou technologique standard (candidats scolaires), conforme aux r&egrave;gles officielles du Minist&egrave;re de l&rsquo;&Eacute;ducation nationale, d&rsquo;&Eacute;duscol et du Code de l&rsquo;&eacute;ducation pour les sessions 2026 et 2027+.</p>
+        <div class="warning-box">
+          <strong>Avertissement r&eacute;glementaire :</strong> Ce simulateur fournit une estimation informative de la moyenne du baccalaur&eacute;at g&eacute;n&eacute;ral ou technologique standard. Il ne remplace ni les notes officielles, ni la d&eacute;lib&eacute;ration du jury, ni les r&egrave;gles particuli&egrave;res applicables &agrave; certaines situations (STAV, BFI, baccalaur&eacute;ats binationaux, candidats individuels, dispenses, am&eacute;nagements d&rsquo;examen, &eacute;talement de session). Les notes pr&eacute;vues saisies par l&rsquo;utilisateur produisent une projection, non un r&eacute;sultat officiel. Les options facultatives ajoutent des coefficients ; une option n&rsquo;est donc pas automatiquement favorable &agrave; la moyenne.
+        </div>
+        <h3>P&eacute;rim&egrave;tre du simulateur</h3>
+        <ul>
+          <li>Bac g&eacute;n&eacute;ral et technologique standard, candidats scolaires</li>
+          <li>Sessions 2026 et 2027+</li>
+          <li>Hors : STAV, BFI, Abibac, Bachibac, Esabac, DNL-SELO, candidats individuels, CNED libre, hors contrat, &eacute;talement, am&eacute;nagement lourd</li>
+        </ul>
+        <h3>Usage autoris&eacute;</h3>
+        <ul>
+          <li>Ne pas d&eacute;tourner le service &agrave; des fins illicites ou frauduleuses</li>
+          <li>Ne pas tenter d&rsquo;alt&eacute;rer le fonctionnement, la s&eacute;curit&eacute; ou l&rsquo;int&eacute;grit&eacute; du site</li>
+          <li>Respecter les droits de propri&eacute;t&eacute; intellectuelle attach&eacute;s au contenu</li>
+        </ul>
+        <h3>Propri&eacute;t&eacute; intellectuelle</h3>
+        <p>L&rsquo;ensemble du contenu du site, incluant notamment le code source, les textes, la structure, les &eacute;l&eacute;ments graphiques et le design, est prot&eacute;g&eacute; par le droit de la propri&eacute;t&eacute; intellectuelle. Toute reproduction, modification ou distribution sans autorisation pr&eacute;alable est interdite. Certaines parties du code ont &eacute;t&eacute; d&eacute;velopp&eacute;es avec l&rsquo;assistance d&rsquo;outils d&rsquo;intelligence artificielle.</p>
+        <h3>Droit applicable</h3>
+        <p>Les pr&eacute;sentes conditions sont soumises au droit fran&ccedil;ais. Tout litige rel&egrave;vera des juridictions comp&eacute;tentes du ressort du si&egrave;ge social de l&rsquo;&eacute;diteur.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="tab-content">
+      <div class="legal-section">
+        <h2>Contact</h2>
+        <p><strong>Nom :</strong> Leonardo Rubatto</p>
+        <p><strong>Email :</strong> <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a></p>
+        <p><strong>Ville :</strong> Paris, France</p>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="last-update">
+    &copy; 2026 NoteBac &mdash; Tous droits r&eacute;serv&eacute;s<br>
+    Derni&egrave;re mise &agrave; jour&nbsp;: 19&nbsp;mars&nbsp;2026
+  </div>
+
+</div>
+
+<script>
+'use strict';
+var ICONS = { 'theme-dark.svg': 'assets/icons/theme-dark.svg', 'theme-light.svg': 'assets/icons/theme-light.svg' };
+function hydrateIcons() {
+  document.querySelectorAll('[data-icon]').forEach(function(el) {
+    var name = el.getAttribute('data-icon'); var path = ICONS[name]; if (!path) return;
+    el.innerHTML = '<img src="' + path + '" alt="" width="20" height="20" aria-hidden="true">';
+  });
+}
+function updateThemeIcon() {
+  var icon = document.getElementById('themeIcon'); if (!icon) return;
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  icon.setAttribute('data-icon', isDark ? 'theme-light.svg' : 'theme-dark.svg');
+  hydrateIcons();
+}
+function toggleTheme() {
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  updateThemeIcon();
+}
+var navLinks = document.querySelectorAll('#subnav-legal a[data-target]');
+navLinks.forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    var target = this.getAttribute('data-target');
+    document.querySelectorAll('.tab-content').forEach(function(t) { t.classList.remove('active'); });
+    document.querySelectorAll('#subnav-legal a').forEach(function(a) { a.classList.remove('active'); });
+    var section = document.getElementById(target);
+    if (section) section.classList.add('active');
+    this.classList.add('active');
+    history.replaceState(null, '', '#' + target);
+  });
+});
+document.addEventListener('DOMContentLoaded', function() {
+  var initHash = location.hash.replace('#', '');
+  if (initHash) { var initLink = document.querySelector('#subnav-legal a[data-target="' + initHash + '"]'); if (initLink) { initLink.click(); } }
+  updateThemeIcon();
+});
+</script>
+</body>
+</html>

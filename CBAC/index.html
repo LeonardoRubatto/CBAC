@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="">
+<head>
+<meta charset="UTF-8">
+<script>(function(){var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.setAttribute('data-theme','dark');}})();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://bac.wecalc.fr/">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-ancestors *; base-uri 'self'; form-action 'self'">
+<title>Simulateur Bac 2026–2027 — Calcul de moyenne officiel, mention et rattrapage | wecalc.fr</title>
+<meta name="description" content="Calculez votre moyenne du baccalauréat général ou technologique avec les coefficients officiels 2026–2027. Contrôle continu, options, rattrapage et mentions. Outil gratuit.">
+<meta name="keywords" content="simulateur bac, simulateur note bac, calculateur note bac, calcul moyenne bac, moyenne bac, coefficient bac, coefficient bac 2026, coefficient bac 2027, contrôle continu bac, note finale bac, calcul points bac, simulateur moyenne bac, bac général moyenne, bac technologique moyenne, rattrapage bac, mention bac, mention très bien bac, comment calculer sa note au bac, comment calculer sa moyenne au bac, options bac, grand oral coefficient, philosophie coefficient bac, spécialités coefficient bac, français écrit coefficient bac, français oral coefficient bac, maths anticipées bac, calcul note bac général, calcul note bac techno, simulateur bac france, moyenne bac avec options, points manquants bac, avoir le bac, note pour le rattrapage">
+<meta name="author" content="NoteBac">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Simulateur Bac 2026–2027 — Calcul de moyenne officiel | NoteBac">
+<meta property="og:description" content="Estimez votre moyenne du bac général ou technologique. Coefficients officiels 2026–2027, contrôle continu, rattrapage et mentions. Outil gratuit.">
+<meta property="og:url" content="https://bac.wecalc.fr/">
+<meta property="og:image" content="https://bac.wecalc.fr/og-image.png">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="wecalc.fr">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Simulateur Bac 2026–2027 — Calcul de moyenne officiel">
+<meta name="twitter:description" content="Coefficients officiels, contrôle continu, rattrapage et mentions. Outil gratuit.">
+<meta name="twitter:image" content="https://bac.wecalc.fr/og-image.png">
+<meta name="twitter:image:alt" content="Simulateur de note du baccalauréat général et technologique 2026–2027">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0F766E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name": "Simulateur Bac","description":"Simulateur de moyenne du baccalauréat général et technologique, coefficients officiels 2026–2027","url":"https://bac.wecalc.fr/","applicationCategory":"EducationApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NoteBac","url":"https://bac.wecalc.fr/","description":"Calculateur gratuit de moyenne du baccalauréat général et technologique — règles officielles 2026–2027","inLanguage":"fr-FR","publisher":{"@type":"Organization","name": "wecalc.fr","url": "https://wecalc.fr/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculateurs","item":"https://wecalc.fr/"},{"@type":"ListItem","position":2,"name":"\u00c9ducation","item":"https://wecalc.fr/education/"},{"@type":"ListItem","position":3,"name":"Simulateur Bac","item":"https://bac.wecalc.fr/"}]}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Comment calculer sa moyenne au bac ?","acceptedAnswer":{"@type":"Answer","text":"Pour calculer sa moyenne au bac, il faut multiplier chaque note par son coefficient, additionner tous les points obtenus, puis diviser par le total des coefficients. Sans option, le total est de 100 coefficients au bac général ou technologique standard."}},
+    {"@type":"Question","name":"Le contrôle continu compte combien pour le bac ?","acceptedAnswer":{"@type":"Answer","text":"Le contrôle continu compte pour 40 % de la note finale du baccalauréat général et technologique. Il repose sur les moyennes annuelles de première et de terminale dans les enseignements concernés."}},
+    {"@type":"Question","name":"Combien faut-il pour avoir le bac ?","acceptedAnswer":{"@type":"Answer","text":"Il faut obtenir une moyenne finale d'au moins 10/20 pour être admis au baccalauréat. Entre 8/20 et moins de 10/20, le candidat peut passer les oraux de rattrapage."}},
+    {"@type":"Question","name":"Peut-on avoir une mention au rattrapage ?","acceptedAnswer":{"@type":"Answer","text":"Non. Un candidat admis après le second groupe d'épreuves ne peut pas obtenir de mention, même si sa moyenne recalculée dépasse 12/20."}},
+    {"@type":"Question","name":"Les options comptent-elles vraiment au bac ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Les options ajoutent des points, mais elles ajoutent aussi des coefficients au total. Une bonne note d'option peut aider, mais une note faible peut aussi faire baisser la moyenne finale."}},
+    {"@type":"Question","name":"Qu'est-ce qui change au bac à partir de 2027 ?","acceptedAnswer":{"@type":"Answer","text":"À partir de la session 2027, une épreuve anticipée de mathématiques de coefficient 2 s'ajoute au calcul. En contrepartie, le coefficient du Grand oral baisse en voie générale comme en voie technologique."}}
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfyfIamezgVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+:root{
+  --blue:#0F766E;--blue-l:#F0FDFA;--blue-d:#0d5e57;--blue-mid:#14B8A6;
+  --green:#059669;--green-l:#ECFDF5;
+  --orange:#D97706;--orange-l:#FFFBEB;
+  --red:#DC2626;--red-l:#FEF2F2;
+  --gray-50:#F9FAFB;--gray-100:#F3F4F6;--gray-200:#E5E7EB;--gray-300:#D1D5DB;
+  --gray-400:#9CA3AF;--gray-500:#6B7280;--gray-700:#374151;--gray-900:#111827;
+  --white:#FFFFFF;--body-bg:#dde6ef;
+  --card-shadow:0 1px 2px rgba(0,0,0,.06),0 4px 16px rgba(0,0,0,.06);
+  --card-shadow-hover:0 4px 6px rgba(0,0,0,.07),0 12px 24px rgba(0,0,0,.10);
+  --radius:14px;--radius-sm:8px;
+  --font-main:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
+  --font-mono:'DM Mono','Fira Code',monospace;
+  --transition-fast:150ms cubic-bezier(0.4,0,0.2,1);
+  --transition-smooth:300ms cubic-bezier(0.4,0,0.2,1);
+}
+/* --- BASE --- */
+body{font-family:var(--font-main);background:var(--body-bg);color:var(--gray-900);line-height:1.55;font-size:15px;min-height:100vh;}
+::-webkit-scrollbar{width:8px;height:8px;}
+::-webkit-scrollbar-track{background:var(--gray-50);border-radius:4px;}
+::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:4px;}
+::-webkit-scrollbar-thumb:hover{background:var(--gray-400);}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:2px;}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}}
+@media(prefers-contrast:more){:root{--blue:#0c5a54;--green:#006622;--gray-500:#555555;--gray-700:#1a1a1a;}}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+/* --- HEADER --- */
+.site-header{background:var(--white);border-bottom:1px solid var(--gray-200);position:sticky;top:0;z-index:200;box-shadow:0 1px 0 var(--gray-200),0 2px 8px rgba(0,0,0,.05);}
+.header-inner{max-width:1320px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0;}
+.logo-mark{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--blue) 0%,var(--blue-d) 100%);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:14px;letter-spacing:-.5px;flex-shrink:0;box-shadow:0 2px 8px rgba(15,118,110,.35);}
+.logo-info{display:flex;flex-direction:column;gap:1px;}
+.logo-name{font-size:17px;font-weight:800;color:var(--gray-900);letter-spacing:-.4px;line-height:1;}
+.logo-name span{color:var(--blue);}
+.logo-sub{font-size:11px;color:var(--gray-500);font-weight:400;line-height:1;}
+.header-right{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.badge{font-size:11px;font-weight:700;padding:5px 12px;border-radius:20px;white-space:nowrap;letter-spacing:.3px;display:flex;align-items:center;gap:5px;}
+.badge-teal{background:var(--blue-l);color:var(--blue);border:1px solid #99f6e4;}
+.badge-green{background:var(--green-l);color:var(--green);border:1px solid #A7F3D0;}
+.theme-btn{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--gray-200);background:var(--white);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.08);transition:all .2s;flex-shrink:0;}
+.theme-btn:hover{border-color:var(--blue);transform:scale(1.08);}
+.ui-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;}
+.ui-icon img{width:16px;height:16px;display:block;}
+@media(max-width:640px){.header-right .badge{display:none;}}
+/* --- LAYOUT --- */
+.page-wrap{max-width:1320px;margin:0 auto;padding:28px 24px 48px;display:grid;grid-template-columns:440px 1fr;gap:24px;align-items:start;}
+.col-results{position:sticky;top:80px;max-height:calc(100vh - 96px);overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:var(--gray-300) transparent;}
+.col-results .card{overflow:visible;}
+/* --- CARD --- */
+.card{background:var(--white);border-radius:var(--radius);border:1px solid var(--gray-200);box-shadow:var(--card-shadow);overflow:hidden;margin-bottom:16px;}
+.card:last-child{margin-bottom:0;}
+.card-head{padding:18px 22px 16px;border-bottom:1px solid var(--gray-100);display:flex;align-items:center;gap:10px;}
+.card-head-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:var(--blue-l);flex-shrink:0;}
+.card-head h2{font-size:14.5px;font-weight:700;color:var(--gray-900);letter-spacing:-.2px;}
+.card-body{padding:22px;}
+/* --- SECTION LABELS --- */
+.sec-label{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--gray-500);margin-top:4px;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.sec-label::after{content:'';flex:1;height:1px;background:var(--gray-100);}
+.form-section{margin-bottom:30px;}
+.form-section:last-child{margin-bottom:0;}
+/* --- FIELD --- */
+.field{margin-bottom:14px;}
+.field:last-child{margin-bottom:0;}
+.field-label{display:block;font-size:13px;font-weight:600;color:var(--gray-700);margin-bottom:7px;}
+.field input[type="number"],.field select{width:100%;padding:10px 14px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-size:14px;font-family:var(--font-main);color:var(--gray-900);background:var(--white);transition:border-color .18s,box-shadow .18s;outline:none;appearance:none;-webkit-appearance:none;}
+.field input[type="number"]:focus,.field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(15,118,110,.10);}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B7280' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px;cursor:pointer;}
+.field-note{font-size:11.5px;color:var(--gray-500);margin-top:5px;line-height:1.5;}
+/* --- SEG CTRL --- */
+.seg-ctrl{display:flex;background:var(--gray-100);border-radius:10px;padding:4px;margin-bottom:16px;border:1px solid var(--gray-200);}
+.seg-btn{flex:1;padding:9px 12px;border:none;border-radius:7px;font-size:13px;font-weight:600;font-family:var(--font-main);cursor:pointer;transition:all .2s;color:var(--gray-500);background:transparent;text-align:center;}
+.seg-btn.active{background:var(--white);color:var(--blue);box-shadow:0 1px 4px rgba(0,0,0,.10);}
+/* --- RADIO PILLS --- */
+.radio-group{display:flex;gap:8px;flex-wrap:wrap;}
+.radio-pill{flex:1;min-width:72px;}
+.radio-pill input[type="radio"]{display:none;}
+.radio-pill label{display:flex;align-items:center;justify-content:center;gap:5px;padding:9px 10px;border:1.5px solid var(--gray-200);border-radius:9px;font-size:13px;font-weight:600;color:var(--gray-500);cursor:pointer;transition:all .18s;text-align:center;background:var(--white);line-height:1.2;}
+.radio-pill input[type="radio"]:checked+label{border-color:var(--blue);background:var(--blue-l);color:var(--blue);}
+.radio-pill label:hover{border-color:var(--gray-400);color:var(--gray-700);}
+/* --- TWO COLS --- */
+.two-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.two-cols .field{margin-bottom:0;}
+/* --- OPT TOGGLES --- */
+.opt-item{border:1.5px solid var(--gray-200);border-radius:11px;overflow:hidden;margin-bottom:10px;transition:border-color .2s;}
+.opt-item.on{border-color:var(--blue);}
+.opt-item:last-child{margin-bottom:0;}
+.opt-toggle{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;cursor:pointer;background:var(--white);transition:background .15s;user-select:none;}
+.opt-toggle:hover{background:var(--gray-50);}
+.opt-toggle:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;}
+.opt-toggle-left{display:flex;align-items:center;gap:10px;font-size:13.5px;font-weight:600;color:var(--gray-700);}
+.opt-toggle-icon{width:20px;height:20px;display:flex;align-items:center;justify-content:center;border-radius:5px;background:var(--blue-l);}
+.switch{width:38px;height:21px;border-radius:11px;background:var(--gray-300);position:relative;flex-shrink:0;transition:background .2s;}
+.switch::after{content:'';position:absolute;top:2.5px;left:2.5px;width:16px;height:16px;border-radius:50%;background:var(--white);box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .2s;}
+.opt-item.on .switch{background:var(--blue);}
+.opt-item.on .switch::after{left:19.5px;}
+.opt-body{padding:16px;background:var(--gray-50);border-top:1px solid var(--gray-100);display:none;}
+.opt-item.on .opt-body{display:block;}
+/* --- BUTTONS --- */
+.action-row{display:flex;gap:10px;margin-top:16px;}
+.btn{flex:1;padding:11px 16px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;transition:all .18s;display:flex;align-items:center;justify-content:center;gap:7px;}
+.btn:active{transform:scale(.97);}
+.btn-ghost{background:var(--white);color:var(--gray-700);border:1.5px solid var(--gray-200);}
+.btn-ghost:hover{background:var(--gray-50);border-color:var(--gray-400);}
+.share-field{display:none;gap:8px;margin-top:12px;align-items:center;}
+.share-field input{flex:1;padding:9px 12px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-size:12px;color:var(--gray-500);background:var(--gray-50);outline:none;font-family:var(--font-mono);}
+.share-field button{padding:9px 16px;background:var(--blue);color:var(--white);border:none;border-radius:var(--radius-sm);font-size:12.5px;font-weight:700;font-family:var(--font-main);cursor:pointer;white-space:nowrap;transition:background .15s;}
+.share-field button:hover{background:var(--blue-d);}
+/* --- RESULTS --- */
+.empty-state{text-align:center;padding:48px 24px;color:var(--gray-400);}
+.empty-icon{width:44px;height:44px;margin:0 auto 14px;opacity:.5;}
+.empty-state p{font-size:14px;line-height:1.6;}
+.empty-state p+p{font-size:12.5px;margin-top:6px;}
+.metrics-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;}
+.metric{border-radius:11px;padding:16px 14px;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;text-align:center;}
+.metric.teal{background:var(--blue-l);border:1.5px solid #99f6e4;}
+.metric.green{background:var(--green-l);border:1.5px solid #A7F3D0;}
+.metric.orange{background:var(--orange-l);border:1.5px solid #FCD34D;}
+.metric.red{background:var(--red-l);border:1.5px solid #FECACA;}
+.metric-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:0;}
+.metric.teal .metric-label,.metric.teal .metric-value{color:var(--blue);}
+.metric.green .metric-label,.metric.green .metric-value{color:var(--green);}
+.metric.orange .metric-label,.metric.orange .metric-value{color:var(--orange);}
+.metric.red .metric-label,.metric.red .metric-value{color:var(--red);}
+.metric-value{font-size:25px;font-weight:800;line-height:1.1;letter-spacing:-.5px;font-variant-numeric:tabular-nums;font-family:var(--font-main);text-align:center;width:100%;}
+.metric-sub{font-size:10.5px;color:var(--gray-500);text-align:center;width:100%;}
+.cat-banner{border-radius:11px;padding:13px 18px;color:#fff;text-align:center;font-size:12.5px;margin-bottom:18px;line-height:1.5;}
+.cat-banner strong{display:block;font-size:18px;font-weight:800;letter-spacing:-.3px;margin-top:3px;}
+.cat-banner.admis{background:linear-gradient(135deg,var(--blue) 0%,var(--blue-d) 100%);}
+.cat-banner.mention{background:linear-gradient(135deg,var(--green) 0%,#047857 100%);}
+.cat-banner.rattrapage{background:linear-gradient(135deg,var(--orange) 0%,#B45309 100%);}
+.cat-banner.ajourne{background:linear-gradient(135deg,var(--red) 0%,#991B1B 100%);}
+/* --- ALERTS --- */
+.alerts-zone{margin-bottom:6px;}
+.alert{display:flex;gap:9px;align-items:flex-start;border-radius:9px;padding:11px 14px;font-size:12.5px;line-height:1.5;margin-bottom:10px;}
+.alert:last-child{margin-bottom:0;}
+.alert-icon{flex-shrink:0;width:16px;height:16px;margin-top:1px;}
+.alert.error{background:var(--red-l);border:1px solid #FECACA;color:#991B1B;}
+.alert.info{background:var(--blue-l);border:1px solid #99f6e4;color:var(--blue-d);}
+.alert.warn{background:var(--orange-l);border:1px solid #FCD34D;color:#92400E;}
+/* --- BREAKDOWN --- */
+.breakdown{margin-top:2px;}
+.bk-group{margin-bottom:4px;}
+.bk-group-head{display:flex;align-items:center;justify-content:space-between;padding:10px 13px;background:var(--gray-100);border-radius:9px;cursor:pointer;user-select:none;transition:background .15s;margin-bottom:2px;border:1px solid transparent;}
+.bk-group-head:hover{background:var(--gray-200);}
+.bk-group-head:focus-visible{outline:2px solid var(--blue);outline-offset:-2px;}
+.bk-group.open .bk-group-head{background:var(--blue-l);border-color:#99f6e4;}
+.bk-group-title{font-size:13px;font-weight:700;color:var(--gray-900);display:flex;align-items:center;gap:7px;}
+.bk-group.open .bk-group-title{color:var(--blue-d);}
+.bk-group-amt{font-size:13px;font-weight:700;color:var(--gray-900);font-variant-numeric:tabular-nums;}
+.bk-arrow{font-size:9px;color:var(--gray-400);transition:transform .2s;margin-left:4px;}
+.bk-group.open .bk-arrow{transform:rotate(180deg);}
+.bk-rows{display:none;padding:2px 2px 4px;}
+.bk-group.open .bk-rows{display:block;}
+.bk-row{display:flex;align-items:center;justify-content:space-between;padding:7px 10px;border-radius:7px;font-size:12.5px;transition:background .1s;}
+.bk-row:hover{background:var(--gray-50);}
+.bk-row-left{display:flex;flex-direction:column;gap:1px;flex:1;min-width:0;}
+.bk-row-name{color:var(--gray-900);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.bk-row-detail{color:var(--gray-400);font-size:11px;font-family:var(--font-mono);}
+.bk-row-amt{font-weight:700;color:var(--gray-900);white-space:nowrap;margin-left:14px;font-variant-numeric:tabular-nums;font-family:var(--font-mono);font-size:12px;}
+.bk-row-amt.pos{color:var(--green);}
+.bk-row-amt.neg{color:var(--red);}
+.bk-row-amt.acc{color:var(--blue);}
+.results-foot{margin-top:14px;font-size:11px;color:var(--gray-400);text-align:center;line-height:1.5;}
+/* --- SEUILS --- */
+.seuils-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:4px;}
+.seuil-row{display:flex;align-items:center;justify-content:space-between;padding:6px 10px;border-radius:7px;background:var(--gray-50);font-size:12px;}
+.seuil-label{color:var(--gray-700);font-weight:600;}
+.seuil-val{font-family:var(--font-mono);font-weight:700;color:var(--blue);}
+.seuil-val.manque{color:var(--red);}
+/* --- AFFILIATE --- */
+.affiliate-wrap{max-width:1320px;margin:0 auto;padding:0 24px 48px;}
+.affiliate-title{font-size:13px;font-weight:700;color:var(--gray-500);margin-bottom:16px;padding-top:24px;border-top:1px solid var(--gray-200);text-transform:uppercase;letter-spacing:.5px;}
+.affiliate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.aff-card{background:var(--white);border:1px solid var(--gray-200);border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--card-shadow);transition:all .2s;}
+.aff-card:hover{box-shadow:var(--card-shadow-hover);transform:translateY(-2px);}
+.aff-card h3{font-size:14px;font-weight:700;color:var(--gray-900);}
+.aff-card p{font-size:13px;color:var(--gray-500);flex:1;line-height:1.5;}
+.aff-cta{display:inline-flex;align-items:center;gap:5px;padding:9px 16px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;font-family:var(--font-main);background:var(--gray-100);color:var(--gray-700);border:1px solid var(--gray-200);cursor:pointer;transition:all .15s;align-self:flex-start;text-decoration:none;}
+.aff-cta:hover{background:var(--blue);color:var(--white);border-color:var(--blue);}
+.aff-disclaimer{font-size:11px;color:var(--gray-400);margin-top:14px;line-height:1.5;}
+/* --- SEO --- */
+.seo-content{max-width:960px;margin:40px auto;padding:0 24px 40px;}
+.seo-inner{border-left:4px solid var(--blue);padding-left:20px;}
+.seo-inner h2{font-size:22px;font-weight:800;color:var(--gray-900);margin-bottom:16px;}
+.seo-inner h3{font-size:17px;font-weight:700;color:var(--gray-900);margin:20px 0 10px;}
+.seo-inner p{font-size:14px;color:var(--gray-700);line-height:1.75;margin-bottom:10px;}
+/* --- FOOTER --- */
+.site-footer{background:var(--white);border-top:1px solid var(--gray-200);padding:0;}
+.footer-content{max-width:1320px;margin:0 auto;padding:48px 24px 24px;}
+.footer-main{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px;border-bottom:1px solid var(--gray-200);padding-bottom:32px;}
+.footer-col h3{font-size:16px;font-weight:800;color:var(--gray-900);margin-bottom:12px;}
+.footer-col h4{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gray-500);margin-bottom:10px;}
+.footer-col p{font-size:13px;color:var(--gray-500);line-height:1.6;}
+.footer-col ul{list-style:none;padding:0;}
+.footer-col ul li{margin-bottom:8px;}
+.footer-col ul li a{color:var(--gray-500);text-decoration:none;font-size:13px;transition:color var(--transition-fast);}
+.footer-col ul li a:hover{color:var(--blue);text-decoration:underline;}
+.footer-bottom{text-align:center;padding-top:16px;border-top:1px solid var(--gray-200);font-size:11px;color:var(--gray-400);}
+/* --- COOKIE --- */
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;background:var(--white);border-top:1px solid var(--gray-200);box-shadow:0 -4px 16px rgba(0,0,0,.08);z-index:999;transform:translateY(100%);transition:transform var(--transition-smooth);display:none;}
+.cookie-banner.show{display:block;transform:translateY(0);}
+.cookie-content{max-width:1320px;margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.cookie-text h3{font-size:14px;font-weight:700;color:var(--gray-900);margin-bottom:4px;}
+.cookie-text p{font-size:13px;color:var(--gray-500);}
+.cookie-buttons{display:flex;gap:10px;flex-shrink:0;}
+.cookie-btn{padding:9px 16px;border-radius:var(--radius-sm);font-size:12px;font-weight:700;font-family:var(--font-main);border:1.5px solid var(--gray-200);cursor:pointer;transition:all var(--transition-fast);white-space:nowrap;}
+.cookie-btn.reject{background:var(--white);color:var(--gray-700);}
+.cookie-btn.reject:hover{border-color:var(--gray-400);color:var(--gray-900);}
+.cookie-btn.settings{background:var(--gray-50);color:var(--gray-700);border-color:var(--gray-300);}
+.cookie-btn.settings:hover{background:var(--gray-100);}
+.cookie-btn.accept{background:var(--blue);color:var(--white);border-color:var(--blue);}
+.cookie-btn.accept:hover{background:var(--blue-d);}
+/* --- FLOAT BTN / TOAST / MODAL --- */
+.float-btn{position:fixed;bottom:24px;right:24px;background:var(--gray-900);color:var(--white);padding:13px 20px;border-radius:50px;font-size:13px;font-weight:700;font-family:var(--font-main);cursor:pointer;border:none;box-shadow:0 4px 20px rgba(0,0,0,.25);display:flex;align-items:center;gap:8px;transition:all .2s;z-index:150;}
+.float-btn:hover{background:var(--blue);transform:translateY(-2px);box-shadow:0 6px 24px rgba(15,118,110,.35);}
+.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(10px);background:var(--gray-900);color:var(--white);padding:11px 22px;border-radius:50px;font-size:13px;font-weight:600;opacity:0;transition:all .3s cubic-bezier(.4,0,.2,1);pointer-events:none;z-index:500;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,.2);}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:400;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);}
+.modal-overlay.open{display:flex;}
+.modal-box{background:var(--white);border-radius:var(--radius);width:100%;max-width:760px;max-height:85vh;display:flex;flex-direction:column;box-shadow:0 24px 64px rgba(0,0,0,.25);}
+.modal-head{padding:20px 26px 16px;border-bottom:1px solid var(--gray-200);display:flex;align-items:center;justify-content:space-between;flex-shrink:0;}
+.modal-head h2{font-size:17px;font-weight:800;color:var(--gray-900);}
+.modal-close-btn{width:30px;height:30px;border-radius:50%;border:1.5px solid var(--gray-200);background:var(--gray-100);cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+.modal-close-btn:hover{background:var(--gray-200);}
+.modal-tabs-bar{display:flex;border-bottom:1px solid var(--gray-200);padding:0 26px;flex-shrink:0;}
+.modal-tab{padding:13px 18px;font-size:13.5px;font-weight:600;cursor:pointer;border-bottom:2.5px solid transparent;color:var(--gray-500);transition:all .2s;margin-bottom:-1px;font-family:var(--font-main);background:none;border-top:none;border-left:none;border-right:none;}
+.modal-tab.active{color:var(--blue);border-bottom-color:var(--blue);}
+.modal-body{padding:22px 26px;overflow-y:auto;flex:1;}
+.modal-pane{display:none;}
+.modal-pane.active{display:block;}
+.sources-table{width:100%;border-collapse:collapse;font-size:12px;}
+.sources-table th{background:var(--gray-100);padding:9px 13px;text-align:left;font-weight:700;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--gray-500);border-bottom:1px solid var(--gray-200);}
+.sources-table td{padding:9px 13px;border-bottom:1px solid var(--gray-100);vertical-align:middle;font-size:12px;}
+.sources-table tr:last-child td{border-bottom:none;}
+.sources-table tr:hover td{background:var(--gray-50);}
+.sources-table a{color:var(--blue);text-decoration:none;}
+.sources-table a:hover{text-decoration:underline;}
+.rate-pill{display:inline-block;padding:3px 9px;border-radius:20px;background:var(--blue-l);color:var(--blue);font-weight:700;font-size:11px;border:1px solid #99f6e4;}
+.link-cards{display:flex;flex-direction:column;gap:10px;}
+.link-card{border:1px solid var(--gray-200);border-radius:10px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:14px;transition:all .15s;}
+.link-card:hover{border-color:var(--blue);background:var(--blue-l);}
+.lc-title{font-size:13.5px;font-weight:700;color:var(--gray-900);}
+.lc-desc{font-size:11.5px;color:var(--gray-500);margin-top:2px;}
+.lc-link{flex-shrink:0;padding:7px 14px;background:var(--blue);color:var(--white);border-radius:7px;font-size:12.5px;font-weight:700;text-decoration:none;transition:background .15s;white-space:nowrap;}
+.lc-link:hover{background:var(--blue-d);}
+.last-check-box{font-size:12px;color:var(--gray-500);background:var(--gray-50);border-radius:9px;padding:13px 16px;margin-bottom:18px;border-left:3px solid var(--blue);line-height:1.5;}
+/* --- COOKIE MODAL --- */
+.cookie-modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);}
+.cookie-modal-overlay.open{display:flex;}
+.cookie-modal{background:var(--white);border-radius:16px;width:100%;max-width:480px;box-shadow:0 24px 64px rgba(0,0,0,.25);overflow:hidden;}
+.cm-head{padding:20px 24px 16px;border-bottom:1px solid var(--gray-200);display:flex;align-items:center;justify-content:space-between;}
+.cm-head h3{font-size:16px;font-weight:800;color:var(--gray-900);}
+.cm-close{width:30px;height:30px;border-radius:50%;border:1.5px solid var(--gray-200);background:var(--gray-100);cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+.cm-close:hover{background:var(--gray-200);}
+.cm-body{padding:20px 24px;}
+.cm-row{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--gray-100);}
+.cm-row:last-child{border-bottom:none;}
+.cm-row-info{flex:1;}
+.cm-row-title{font-size:14px;font-weight:700;color:var(--gray-900);margin-bottom:3px;}
+.cm-row-desc{font-size:12px;color:var(--gray-500);line-height:1.5;}
+.cm-toggle-wrap{flex-shrink:0;padding-top:2px;}
+.cm-toggle{position:relative;width:44px;height:24px;cursor:pointer;}
+.cm-toggle input{opacity:0;width:0;height:0;position:absolute;}
+.cm-track{position:absolute;inset:0;background:var(--gray-200);border-radius:12px;transition:background .2s;}
+.cm-toggle input:checked+.cm-track{background:var(--blue);}
+.cm-toggle input:disabled+.cm-track{background:var(--gray-100);cursor:not-allowed;opacity:.7;}
+.cm-track::after{content:'';position:absolute;left:3px;top:3px;width:18px;height:18px;background:#fff;border-radius:50%;transition:transform .2s;box-shadow:0 1px 4px rgba(0,0,0,.2);}
+.cm-toggle input:checked+.cm-track::after{transform:translateX(20px);}
+.cm-foot{padding:16px 24px;border-top:1px solid var(--gray-200);display:flex;gap:10px;justify-content:flex-end;}
+.cm-btn{padding:10px 20px;border-radius:8px;font-size:13px;font-weight:700;font-family:var(--font-main);border:1.5px solid var(--gray-200);cursor:pointer;transition:all .15s;}
+.cm-btn.save{background:var(--blue);color:#fff;border-color:var(--blue);}
+.cm-btn.save:hover{background:var(--blue-d);}
+.cm-btn.reject-all{background:var(--white);color:var(--gray-700);}
+.cm-btn.reject-all:hover{border-color:var(--gray-400);}
+/* --- DYNAMIC OPT ROWS --- */
+.opt-row-group{border:1px solid var(--gray-200);border-radius:10px;padding:14px 14px 10px;margin-bottom:10px;background:var(--white);}
+.opt-row-group:last-child{margin-bottom:0;}
+.opt-row-group-head{font-size:12px;font-weight:700;color:var(--gray-700);margin-bottom:10px;text-transform:uppercase;letter-spacing:.4px;}
+/* --- DARK MODE --- */
+[data-theme="dark"]{--body-bg:#080e18;--white:#0f172a;--gray-50:#2a3442;--gray-100:#313c4a;--gray-200:#3e4a5a;--gray-400:#7a8798;--gray-500:#b8c2cf;--gray-700:#d6dde6;--gray-900:#ffffff;}
+[data-theme="dark"] body{background:var(--body-bg);color:var(--gray-900);}
+[data-theme="dark"] .card,[data-theme="dark"] .site-header,[data-theme="dark"] .modal-box,[data-theme="dark"] .cookie-modal{background:var(--white);border-color:var(--gray-200);}
+[data-theme="dark"] .seg-ctrl{background:var(--gray-100);border-color:var(--gray-200);}
+[data-theme="dark"] .seg-btn.active{background:var(--gray-50);}
+[data-theme="dark"] .field input[type="number"],[data-theme="dark"] .field select{background:var(--gray-50);border-color:var(--gray-200);color:var(--gray-900);}
+[data-theme="dark"] .radio-pill label{background:var(--gray-50);border-color:var(--gray-200);color:var(--gray-500);}
+[data-theme="dark"] .radio-pill input:checked+label{background:#0d3d39;border-color:var(--blue);color:#fff;}
+[data-theme="dark"] .opt-toggle{background:var(--white);}
+[data-theme="dark"] .opt-toggle:hover{background:var(--gray-50);}
+[data-theme="dark"] .opt-body{background:var(--gray-50);border-top-color:var(--gray-200);}
+[data-theme="dark"] .opt-row-group{background:var(--gray-50);border-color:var(--gray-200);}
+[data-theme="dark"] .bk-group-head{background:var(--gray-100);}
+[data-theme="dark"] .aff-card{background:var(--white);border-color:var(--gray-200);}
+[data-theme="dark"] .btn-ghost{background:var(--white);border-color:var(--gray-200);color:var(--gray-700);}
+[data-theme="dark"] .site-footer{background:var(--gray-100);border-top-color:var(--gray-200);}
+[data-theme="dark"] .footer-col h3,[data-theme="dark"] .footer-col h4{color:var(--gray-900);}
+[data-theme="dark"] .footer-col ul li a,[data-theme="dark"] .footer-col p{color:var(--gray-500);}
+[data-theme="dark"] .footer-bottom{border-top-color:var(--gray-200);color:var(--gray-500);}
+[data-theme="dark"] .cookie-banner{background:var(--white);border-top-color:var(--gray-200);}
+[data-theme="dark"] .cookie-btn.settings{background:var(--gray-100);}
+[data-theme="dark"] .modal-overlay{background:rgba(0,0,0,.7);}
+[data-theme="dark"] .sources-table th{background:var(--gray-100);}
+[data-theme="dark"] .sources-table td{border-color:var(--gray-200);}
+[data-theme="dark"] .seuil-row{background:var(--gray-50);}
+/* --- RESPONSIVE --- */
+@media(max-width:960px){.page-wrap{grid-template-columns:1fr;padding:16px 16px 32px;gap:16px;}.col-results{position:static;max-height:none;overflow:visible;}.metrics-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:640px){.header-inner{padding:0 16px;height:58px;}.logo-sub{display:none;}.metrics-grid{grid-template-columns:1fr;gap:8px;}.affiliate-grid{grid-template-columns:1fr;}.two-cols{grid-template-columns:1fr;}.float-btn{bottom:16px;right:16px;padding:11px 16px;font-size:12px;}.modal-tabs-bar{padding:0 16px;}.modal-body{padding:16px;}.modal-head{padding:16px 18px;}.modal-tab{padding:11px 12px;font-size:12.5px;}.cookie-content{flex-direction:column;align-items:flex-start;}.cookie-buttons{width:100%;flex-wrap:wrap;}.cookie-btn{flex:1;min-width:120px;}.seuils-grid{grid-template-columns:1fr;}}
+@media(max-width:360px){.header-inner{padding:0 12px;height:56px;}.page-wrap{padding:8px 12px 24px;gap:12px;}.card-body{padding:12px;}.float-btn{padding:10px 14px;font-size:11px;bottom:12px;right:12px;}.metrics-grid{grid-template-columns:1fr;}}
+
+.hub-retour{display:inline-flex;align-items:center;gap:7px;text-decoration:none;padding:5px 12px 5px 6px;border-radius:20px;border:1px solid var(--gray-200);background:var(--white);transition:all .2s;flex-shrink:0;}
+.hub-retour:hover{border-color:#1E3A5F;background:var(--gray-50);}
+.retour-logo{display:flex;align-items:center;flex-shrink:0;}
+.retour-text{font-size:12px;font-weight:600;color:var(--gray-700);letter-spacing:.1px;}
+
+
+
+[data-theme="dark"] .hub-retour{background:#1e2a3a;border-color:#3e4a5a;}
+[data-theme="dark"] .retour-text{color:var(--gray-500);}
+</style>
+</head>
+
+<body>
+
+<h1 class="visually-hidden">Simulateur Bac 2026–2027 — Calcul de moyenne officiel, mention et rattrapage</h1>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="/" aria-label="Accueil NoteBac">
+      <div class="logo-mark">NB</div>
+      <div class="logo-info">
+        <div class="logo-name">Note<span>Bac</span></div>
+        <div class="logo-sub">Simulateur officiel</div>
+      </div>
+    </a>
+    <div class="header-right">
+      <span class="badge badge-teal"><span class="ui-icon" data-icon="france.svg" aria-hidden="true"></span> Règles officielles 2026–2027</span>
+      <span class="badge badge-green"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span> Sources officielles</span>
+      <a href="https://wecalc.fr/" class="hub-retour" rel="noopener noreferrer" aria-label="Retour à la plateforme wecalc.fr">
+        <span class="retour-logo" aria-hidden="true">
+          <img src="assets/icons/logo-fibo4.svg" width="22" height="22" alt="" aria-hidden="true">
+        </span>
+        <span class="retour-text">Retour</span>
+      </a>
+      <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" aria-label="Basculer le mode sombre">
+        <span class="ui-icon" id="themeIcon" data-icon="theme-dark.svg" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="page-wrap">
+
+  <!-- COL FORM -->
+  <div class="col-form">
+
+    <!-- CARD SESSION & VOIE -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></div>
+        <h2>Session &amp; voie</h2>
+      </div>
+      <div class="card-body">
+        <div class="form-section">
+          <div class="sec-label">Session du bac</div>
+          <div class="field">
+            <label class="field-label" for="sessionSelect">Session</label>
+            <select id="sessionSelect" onchange="onSessionChange()">
+              <option value="2026">Session 2026</option>
+              <option value="2027">Session 2027 et après</option>
+            </select>
+            <div class="field-note" id="sessionNote">Session 2026 : Grand oral coeff. 10 (G) / 14 (T). Pas de mathématiques anticipées.</div>
+          </div>
+        </div>
+        <div class="form-section">
+          <div class="sec-label">Voie</div>
+          <div class="radio-group">
+            <div class="radio-pill">
+              <input type="radio" name="voie" id="voie-gen" value="generale" checked onchange="recalc()">
+              <label for="voie-gen">Générale</label>
+            </div>
+            <div class="radio-pill">
+              <input type="radio" name="voie" id="voie-tech" value="technologique" onchange="recalc()">
+              <label for="voie-tech">Technologique</label>
+            </div>
+          </div>
+          <div class="field-note" style="margin-top:8px">Ce simulateur couvre le bac général et technologique standard. Hors STAV, BFI, binationaux, candidats individuels.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD CONTRÔLE CONTINU -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></div>
+        <h2>Contrôle continu (40 %)</h2>
+      </div>
+      <div class="card-body">
+
+        <div class="form-section">
+          <div class="sec-label">Spécialité suivie uniquement en 1re (coeff. 8)</div>
+          <div class="field">
+            <label class="field-label" for="specPremiere">Moyenne annuelle — 1re</label>
+            <input type="number" id="specPremiere" min="0" max="20" step="0.1" placeholder="Ex : 13.5" oninput="recalc()">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Histoire-géographie (coeff. 6)</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="hg1ere">HG — 1re</label>
+              <input type="number" id="hg1ere" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()">
+            </div>
+            <div class="field">
+              <label class="field-label" for="hgTerm">HG — terminale</label>
+              <input type="number" id="hgTerm" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Langue vivante A (coeff. 6)</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="lva1ere">LVA — 1re</label>
+              <input type="number" id="lva1ere" min="0" max="20" step="0.1" placeholder="Ex : 14" oninput="recalc()">
+            </div>
+            <div class="field">
+              <label class="field-label" for="lvaTerm">LVA — terminale</label>
+              <input type="number" id="lvaTerm" min="0" max="20" step="0.1" placeholder="Ex : 15" oninput="recalc()">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Langue vivante B (coeff. 6)</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="lvb1ere">LVB — 1re</label>
+              <input type="number" id="lvb1ere" min="0" max="20" step="0.1" placeholder="Ex : 11" oninput="recalc()">
+            </div>
+            <div class="field">
+              <label class="field-label" for="lvbTerm">LVB — terminale</label>
+              <input type="number" id="lvbTerm" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label" id="sciLabel">Enseignement scientifique (coeff. 6)</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="sci1ere" id="sci1ereLabel">Enseign. scientifique — 1re</label>
+              <input type="number" id="sci1ere" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()">
+            </div>
+            <div class="field">
+              <label class="field-label" for="sciTerm" id="sciTermLabel">Enseign. scientifique — terminale</label>
+              <input type="number" id="sciTerm" min="0" max="20" step="0.1" placeholder="Ex : 14" oninput="recalc()">
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">EPS — CCF (coeff. 6)</div>
+          <div class="field">
+            <label class="field-label" for="epsCcf">Note EPS retenue pour le bac</label>
+            <input type="number" id="epsCcf" min="0" max="20" step="0.1" placeholder="Ex : 15" oninput="recalc()">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">EMC (coeff. 2)</div>
+          <div class="two-cols">
+            <div class="field">
+              <label class="field-label" for="emc1ere">EMC — 1re</label>
+              <input type="number" id="emc1ere" min="0" max="20" step="0.1" placeholder="Ex : 16" oninput="recalc()">
+            </div>
+            <div class="field">
+              <label class="field-label" for="emcTerm">EMC — terminale</label>
+              <input type="number" id="emcTerm" min="0" max="20" step="0.1" placeholder="Ex : 15" oninput="recalc()">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CARD ÉPREUVES ANTICIPÉES -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="exam.svg" aria-hidden="true"></span></div>
+        <h2>Épreuves anticipées (1re)</h2>
+      </div>
+      <div class="card-body">
+        <div class="form-section">
+          <div class="sec-label">Français écrit (coeff. 5)</div>
+          <div class="field">
+            <label class="field-label" for="francaisEcrit">Note de français écrit</label>
+            <input type="number" id="francaisEcrit" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()">
+          </div>
+        </div>
+        <div class="form-section">
+          <div class="sec-label">Français oral (coeff. 5)</div>
+          <div class="field">
+            <label class="field-label" for="francaisOral">Note de français oral</label>
+            <input type="number" id="francaisOral" min="0" max="20" step="0.1" placeholder="Ex : 14" oninput="recalc()">
+          </div>
+        </div>
+        <div class="form-section" id="mathsAnticipeesSection" style="display:none">
+          <div class="sec-label">Mathématiques anticipées — session 2027+ (coeff. 2)</div>
+          <div class="field">
+            <label class="field-label" for="mathsAnticipees">Note de mathématiques anticipées</label>
+            <input type="number" id="mathsAnticipees" min="0" max="20" step="0.1" placeholder="Ex : 11" oninput="recalc()">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD ÉPREUVES TERMINALES -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="exam.svg" aria-hidden="true"></span></div>
+        <h2>Épreuves terminales (60 %)</h2>
+      </div>
+      <div class="card-body">
+
+        <div class="form-section">
+          <div class="sec-label">Spécialité 1 — terminale (coeff. 16)</div>
+          <div class="field">
+            <label class="field-label" for="spec1">Note de spécialité 1</label>
+            <input type="number" id="spec1" min="0" max="20" step="0.1" placeholder="Ex : 14" oninput="recalc()">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label">Spécialité 2 — terminale (coeff. 16)</div>
+          <div class="field">
+            <label class="field-label" for="spec2">Note de spécialité 2</label>
+            <input type="number" id="spec2" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label" id="philoLabel">Philosophie (coeff. 8)</div>
+          <div class="field">
+            <label class="field-label" for="philo">Note de philosophie</label>
+            <input type="number" id="philo" min="0" max="20" step="0.1" placeholder="Ex : 11" oninput="recalc()">
+          </div>
+        </div>
+
+        <div class="form-section">
+          <div class="sec-label" id="grandOralLabel">Grand oral (coeff. <span id="grandOralCoeffText">10</span>)</div>
+          <div class="field">
+            <label class="field-label" for="grandOral">Note du Grand oral</label>
+            <input type="number" id="grandOral" min="0" max="20" step="0.1" placeholder="Ex : 15" oninput="recalc()">
+            <div class="field-note" id="grandOralNote">Voie générale 2026 : coefficient 10.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- OPT OPTIONS -->
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true"></span></div>
+        <h2>Options &amp; rattrapage</h2>
+      </div>
+      <div class="card-body">
+
+        <!-- OPTIONS FACULTATIVES -->
+        <div class="opt-item" id="opt-options">
+          <div class="opt-toggle" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleOpt('options')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleOpt('options')}">
+            <div class="opt-toggle-left"><span class="opt-toggle-icon"><span class="ui-icon" data-icon="bonus.svg" aria-hidden="true"></span></span><span>Options facultatives</span></div>
+            <div class="switch" aria-hidden="true"></div>
+          </div>
+          <div class="opt-body" id="body-options">
+            <div class="field-note" style="margin-bottom:12px">Chaque option ajoute 2 points de coefficient par année suivie. Une note faible peut faire baisser la moyenne.</div>
+
+            <!-- Options standard 1-4 -->
+            <div id="optStdContainer"></div>
+
+            <div class="field" style="margin-top:10px">
+              <label class="field-label" for="optStdCount">Nombre d'options standard</label>
+              <select id="optStdCount" onchange="buildOptRows()">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+
+            <!-- Latin -->
+            <div style="margin-top:14px">
+              <div class="field">
+                <label class="field-label" for="latinScope">Latin — année(s) suivie(s)</label>
+                <select id="latinScope" onchange="recalc()">
+                  <option value="inactive">Non suivi</option>
+                  <option value="1ere">1re seulement</option>
+                  <option value="term">Terminale seulement</option>
+                  <option value="both">1re + terminale</option>
+                </select>
+              </div>
+              <div id="latinNotes" style="display:none">
+                <div class="two-cols" style="margin-top:8px">
+                  <div class="field" id="latinNoteA"><label class="field-label" for="latin1ere">Latin — note 1re</label><input type="number" id="latin1ere" min="0" max="20" step="0.1" placeholder="Ex : 14" oninput="recalc()"></div>
+                  <div class="field" id="latinNoteB"><label class="field-label" for="latinTerm">Latin — note terminale</label><input type="number" id="latinTerm" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Grec -->
+            <div style="margin-top:14px">
+              <div class="field">
+                <label class="field-label" for="grecScope">Grec — année(s) suivie(s)</label>
+                <select id="grecScope" onchange="recalc()">
+                  <option value="inactive">Non suivi</option>
+                  <option value="1ere">1re seulement</option>
+                  <option value="term">Terminale seulement</option>
+                  <option value="both">1re + terminale</option>
+                </select>
+              </div>
+              <div id="grecNotes" style="display:none">
+                <div class="two-cols" style="margin-top:8px">
+                  <div class="field" id="grecNoteA"><label class="field-label" for="grec1ere">Grec — note 1re</label><input type="number" id="grec1ere" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()"></div>
+                  <div class="field" id="grecNoteB"><label class="field-label" for="grecTerm">Grec — note terminale</label><input type="number" id="grecTerm" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SIMULATION RATTRAPAGE -->
+        <div class="opt-item" id="opt-rattrapage">
+          <div class="opt-toggle" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleOpt('rattrapage')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleOpt('rattrapage')}">
+            <div class="opt-toggle-left"><span class="opt-toggle-icon"><span class="ui-icon" data-icon="warning.svg" aria-hidden="true"></span></span><span>Simulation du rattrapage</span></div>
+            <div class="switch" aria-hidden="true"></div>
+          </div>
+          <div class="opt-body" id="body-rattrapage">
+            <div class="field-note" style="margin-bottom:12px">Disponible entre 8/20 et moins de 10/20. La note d'oral remplace l'écrit seulement si elle est supérieure.</div>
+            <div class="alerts-zone" id="rattrapageAlertZone"></div>
+
+            <div class="form-section">
+              <div class="sec-label">Oral de rattrapage 1</div>
+              <div class="field">
+                <label class="field-label" for="oral1Matiere">Matière</label>
+                <select id="oral1Matiere" onchange="recalc()">
+                  <option value="">— Choisir une matière —</option>
+                  <option value="francaisEcrit">Français écrit</option>
+                  <option value="philo">Philosophie</option>
+                  <option value="spec1">Spécialité 1</option>
+                  <option value="spec2">Spécialité 2</option>
+                  <option value="mathsAnticipees" id="optMaths2027a" style="display:none">Mathématiques anticipées (2027+)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label class="field-label" for="oral1Note">Note de l'oral</label>
+                <input type="number" id="oral1Note" min="0" max="20" step="0.1" placeholder="Ex : 11" oninput="recalc()">
+              </div>
+            </div>
+
+            <div class="form-section">
+              <div class="sec-label">Oral de rattrapage 2</div>
+              <div class="field">
+                <label class="field-label" for="oral2Matiere">Matière</label>
+                <select id="oral2Matiere" onchange="recalc()">
+                  <option value="">— Choisir une matière —</option>
+                  <option value="francaisEcrit">Français écrit</option>
+                  <option value="philo">Philosophie</option>
+                  <option value="spec1">Spécialité 1</option>
+                  <option value="spec2">Spécialité 2</option>
+                  <option value="mathsAnticipees" id="optMaths2027b" style="display:none">Mathématiques anticipées (2027+)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label class="field-label" for="oral2Note">Note de l'oral</label>
+                <input type="number" id="oral2Note" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ACTION ROW -->
+    <div class="action-row">
+      <button type="button" class="btn btn-ghost" onclick="shareURLAction()">
+        <span class="ui-icon" data-icon="share.svg" aria-hidden="true"></span> Partager
+      </button>
+      <button type="button" class="btn btn-ghost" onclick="exportPDF(this)">
+        <span class="ui-icon" data-icon="pdf.svg" aria-hidden="true"></span> Exporter PDF
+      </button>
+    </div>
+    <div class="share-field" id="shareField">
+      <input type="text" id="shareUrl" readonly placeholder="Lien de partage...">
+      <button type="button" onclick="copyURL()">Copier</button>
+    </div>
+
+  </div><!-- /col-form -->
+
+  <!-- COL RESULTS -->
+  <div class="col-results">
+    <div class="card">
+      <div class="card-head">
+        <div class="card-head-icon"><span class="ui-icon" data-icon="success.svg" aria-hidden="true"></span></div>
+        <h2>Résultats de la simulation</h2>
+      </div>
+      <div class="card-body">
+
+        <div id="emptyState" class="empty-state">
+          <div class="empty-icon"><span class="ui-icon" data-icon="info.svg" aria-hidden="true" style="width:44px;height:44px;opacity:.5"></span></div>
+          <p>Renseignez vos notes pour simuler votre moyenne du bac</p>
+          <p>Les résultats s'affichent en temps réel</p>
+        </div>
+
+        <div id="resultsContent" style="display:none">
+          <div class="alerts-zone" id="alertsZone"></div>
+
+          <div class="metrics-grid">
+            <div class="metric teal">
+              <div class="metric-label">Moyenne estimée</div>
+              <div class="metric-value" id="metricMoyenne">—</div>
+              <div class="metric-sub">/20</div>
+            </div>
+            <div class="metric green" id="metricMentionBox">
+              <div class="metric-label">Mention</div>
+              <div class="metric-value" id="metricMention">—</div>
+              <div class="metric-sub">Estimation</div>
+            </div>
+          </div>
+
+          <div class="cat-banner admis" id="catBanner">
+            Statut estimé <strong id="catBannerLabel">—</strong>
+          </div>
+
+          <div class="breakdown" id="breakdownZone"></div>
+
+          <div class="alerts-zone" style="margin-top:12px" id="alertsZoneBottom"></div>
+
+          <p class="results-foot">
+            Estimation informative uniquement &mdash; ne remplace pas les notes officielles ni la délibération du jury.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div><!-- /col-results -->
+
+</div><!-- /page-wrap -->
+
+<!-- AFFILIATES -->
+<div class="affiliate-wrap">
+  <div class="affiliate-title">Outils recommandés</div>
+  <div class="affiliate-grid">
+    <div class="aff-card">
+      <h3>Kartable</h3>
+      <p>Retravailler les matières qui pèsent le plus dans votre moyenne : cours, fiches et exercices en ligne pour le bac général et technologique.</p>
+      <a href="https://www.kartable.fr/" target="_blank" rel="noopener noreferrer" class="aff-cta">Réviser &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <h3>SchoolMouv</h3>
+      <p>Transformez votre diagnostic de notes en plan de révision structuré, avec des méthodes adaptées au bac et aux spécialités.</p>
+      <a href="https://www.schoolmouv.fr/" target="_blank" rel="noopener noreferrer" class="aff-cta">Démarrer &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <h3>Nomad Education</h3>
+      <p>Fiches, quiz et annales sur mobile pour compléter votre simulation par un entraînement concret, matière par matière.</p>
+      <a href="https://www.nomadeducation.fr/" target="_blank" rel="noopener noreferrer" class="aff-cta">Télécharger &rarr;</a>
+    </div>
+    <div class="aff-card">
+      <h3>Fnac — Annales &amp; manuels</h3>
+      <p>Achetez annales corrigées, manuels parascolaires et fournitures après avoir identifié vos matières critiques dans la simulation.</p>
+      <a href="https://www.fnac.com/Livres/Scolaire-Parascolaire/sh1482/s1" target="_blank" rel="noopener noreferrer" class="aff-cta">Voir la sélection &rarr;</a>
+    </div>
+  </div>
+  <p class="aff-disclaimer">Recommandations indépendantes. Une commission peut être perçue en cas de souscription &mdash; sans impact sur vos calculs ni sur l'objectivité des résultats.</p>
+</div>
+
+<!-- SEO CONTENT -->
+<div class="seo-content">
+  <div class="seo-inner">
+    <h2>Calculateur de note du bac : estimez votre moyenne finale en France</h2>
+    <p>Ce calculateur de note du bac permet d'estimer rapidement votre moyenne finale au baccalauréat général ou technologique en France. Il applique les coefficients officiels du contrôle continu, des épreuves anticipées, des épreuves terminales et des options facultatives. L'objectif est simple : vous donner une vision claire de votre situation avant les résultats, avec vos notes déjà obtenues ou vos notes prévues.</p>
+    <h3>Comment se calcule la moyenne du bac ?</h3>
+    <p>Le bac repose sur une règle stable : chaque note est multipliée par son coefficient, puis l'ensemble des points est divisé par le total des coefficients. Pour les candidats scolaires standard, le contrôle continu représente 40 % de la note finale, et les épreuves terminales 60 %. Le contrôle continu prend en compte les moyennes annuelles de première et de terminale dans les matières concernées. En 2026, le Grand oral garde encore son ancien coefficient ; à partir de la session 2027, une nouvelle épreuve anticipée de mathématiques s'ajoute et le coefficient du Grand oral baisse.</p>
+    <h3>Pourquoi utiliser un simulateur de moyenne du bac ?</h3>
+    <p>Un simulateur bac utile ne doit pas seulement afficher une moyenne. Il doit aussi montrer le total de points, le poids exact de chaque matière, l'impact réel des options et la zone de verdict : admission, rattrapage ou ajournement. C'est particulièrement important si vous visez une mention ou si vous êtes proche du seuil du second groupe. Notre approche suit les données officielles 2025–2026 du ministère de l'Éducation nationale, d'Éduscol et du Code de l'éducation, afin de rester fidèle au calcul réglementaire en vigueur en France. Vous obtenez ainsi une estimation lisible, structurée et directement exploitable pour vos révisions ou votre projection de résultat.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-main">
+      <div class="footer-col">
+        <h3>NoteBac</h3>
+        <p>Outil gratuit de simulation de la moyenne du baccalauréat général et technologique. Coefficients officiels Ministère de l'Éducation nationale 2026–2027. Données affichées en toute transparence.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Ressources officielles</h4>
+        <ul>
+          <li><a href="https://www.education.gouv.fr/reussir-au-lycee/comment-calculer-votre-note-au-baccalaureat-325511" target="_blank" rel="noopener noreferrer">Ministère — Comment calculer votre note au bac</a></li>
+          <li><a href="https://eduscol.education.gouv.fr/5676/le-controle-continu-des-candidats-scolaires-au-baccalaureat-general-ou-technologique" target="_blank" rel="noopener noreferrer">Éduscol — Contrôle continu</a></li>
+          <li><a href="https://eduscol.education.gouv.fr/5706/les-epreuves-terminales-du-baccalaureat-general" target="_blank" rel="noopener noreferrer">Éduscol — Épreuves terminales générales</a></li>
+          <li><a href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166854/" target="_blank" rel="noopener noreferrer">Légifrance — Code de l'éducation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Politique &amp; Légal</h4>
+        <ul>
+          <li><a href="/confidentialite.html#confidentialite">Confidentialité &amp; RGPD</a></li>
+          <li><a href="/confidentialite.html#mentions">Mentions légales</a></li>
+          <li><a href="/confidentialite.html#conditions">Conditions d'utilisation</a></li>
+          <li><a href="/confidentialite.html#contact">Contact</a></li>
+          <li><a href="#" onclick="openCookieSettingsModal();return false;">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Nos outils</h4>
+        <ul>
+          <li><a href="https://wecalc.fr" rel="noopener noreferrer"><strong>← Tous les calculateurs</strong></a></li>
+          <li><a href="https://equations.wecalc.fr" rel="noopener noreferrer">Équations</a></li>
+          <li><a href="https://mesures.wecalc.fr" rel="noopener noreferrer">Convertisseur</a></li>
+          <li><a href="https://imc.wecalc.fr" rel="noopener noreferrer">IMC</a></li>
+          <li><a href="https://salaire.wecalc.fr" rel="noopener noreferrer">Coût salarié</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>À propos</h4>
+        <p><small>Outil informatif &mdash; ne constitue pas un résultat officiel. La délibération du jury est souveraine.<br>
+        Coefficients vérifiés au 19/03/2026.<br>
+        Erreur détectée ? <a href="mailto:bonaventis.prjct@gmail.com">bonaventis.prjct@gmail.com</a><br><br>
+        &copy; 2026 NoteBac &mdash; Tous droits réservés</small></p>
+      </div>
+      </div>
+    <div class="footer-bottom">
+      <p>NoteBac | Simulateur de note du baccalauréat général et technologique — coefficients officiels 2026–2027</p>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE SETTINGS MODAL -->
+<div class="cookie-modal-overlay" id="cookieSettingsModal" onclick="closeCookieModalOverlay(event)" role="dialog" aria-modal="true" aria-labelledby="cmTitle">
+  <div class="cookie-modal">
+    <div class="cm-head">
+      <h3 id="cmTitle">Paramètres des cookies</h3>
+      <button class="cm-close" onclick="closeCookieSettingsModal()" aria-label="Fermer">&times;</button>
+    </div>
+    <div class="cm-body">
+      <div class="cm-row">
+        <div class="cm-row-info">
+          <div class="cm-row-title">Cookies essentiels</div>
+          <div class="cm-row-desc">Indispensables au fonctionnement : mémorisation du thème, sauvegarde des notes et préférences de consentement. Aucun tiers impliqué.</div>
+        </div>
+        <div class="cm-toggle-wrap">
+          <label class="cm-toggle"><input type="checkbox" checked disabled><div class="cm-track"></div></label>
+        </div>
+      </div>
+    </div>
+    <div class="cm-foot">
+      <button class="cm-btn reject-all" onclick="rejectAllFromModal()">Tout refuser</button>
+      <button class="cm-btn save" onclick="saveFromModal()">Enregistrer</button>
+    </div>
+  </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookieBanner" role="region" aria-label="Consentement aux cookies">
+  <div class="cookie-content">
+    <div class="cookie-text">
+      <h3>Ce site utilise des cookies essentiels</h3>
+      <p>Pour mémoriser vos notes, votre thème et vos choix de confidentialité. Aucun cookie publicitaire ni analytique tiers.</p>
+    </div>
+    <div class="cookie-buttons">
+      <button class="cookie-btn reject" id="cookieReject">Refuser</button>
+      <button class="cookie-btn settings" id="cookieSettings">Paramètres</button>
+      <button class="cookie-btn accept" id="cookieAccept">Accepter</button>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="float-btn" onclick="openModal()" aria-label="Afficher les sources et seuils">
+  <span class="ui-icon" id="sourcesIcon" data-icon="sources.svg" aria-hidden="true"></span> Sources &amp; seuils
+</button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- SOURCES MODAL -->
+<div class="modal-overlay" id="sourcesModal" onclick="closeModalOverlay(event)" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 id="modalTitle">Sources &amp; coefficients officiels</h2>
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Fermer">&times;</button>
+    </div>
+    <div class="modal-tabs-bar">
+      <button class="modal-tab active" onclick="switchModalTab('seuils',this)">Coefficients &amp; seuils</button>
+      <button class="modal-tab" onclick="switchModalTab('liens',this)">Liens officiels</button>
+    </div>
+    <div class="modal-body">
+      <div id="pane-seuils" class="modal-pane active">
+        <div class="last-check-box">Dernière vérification des coefficients : <strong>19 mars 2026</strong>. Périmètre : bac général et technologique standard, candidats scolaires.</div>
+        <table class="sources-table"><thead><tr><th>Paramètre</th><th>Valeur</th><th>Application</th><th>Source</th><th>Vérification</th></tr></thead><tbody id="sourcesBody"></tbody></table>
+      </div>
+      <div id="pane-liens" class="modal-pane">
+        <div class="link-cards" id="linksZone"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* =============================================================
+   PORTAL COMPATIBILITY
+============================================================= */
+var SITE_META = Object.freeze({
+  id:       'calc-bac',
+  name:     'Simulateur Bac',
+  domain:   'bac.wecalc.fr',
+  category: 'education',
+  accent:   '#0F766E',
+  lang:     'fr'
+});
+
+/* =============================================================
+   ICONS
+============================================================= */
+var ICONS = {
+  'warning.svg':    'assets/icons/warning.svg',
+  'info.svg':       'assets/icons/info.svg',
+  'error.svg':      'assets/icons/error.svg',
+  'success.svg':    'assets/icons/success.svg',
+  'share.svg':      'assets/icons/share.svg',
+  'pdf.svg':        'assets/icons/pdf.svg',
+  'sources.svg':      'assets/icons/sources.svg',
+  'sources-dark.svg': 'assets/icons/sources-dark.svg',
+  'theme-dark.svg': 'assets/icons/theme-dark.svg',
+  'theme-light.svg':'assets/icons/theme-light.svg',
+  'bonus.svg':        'assets/icons/bonus.svg',
+  'exam.svg':      'assets/icons/exam.svg',
+  'france.svg':     'assets/icons/france.svg'
+};
+
+function hydrateIcons() {
+  document.querySelectorAll('[data-icon]').forEach(function(el) {
+    var name = el.getAttribute('data-icon');
+    var path = ICONS[name];
+    if (!path) return;
+    el.innerHTML = '<img src="' + path + '" alt="" width="16" height="16" aria-hidden="true">';
+  });
+}
+
+/* =============================================================
+   CONSTANTS
+============================================================= */
+var CFG = Object.freeze({
+  SESSION_2026: 2026,
+  SESSION_2027: 2027,
+  NOTE_MIN: 0,
+  NOTE_MAX: 20,
+  BASE_TOTAL_COEFF: 100,
+  CC_SPECIALITE_PREMIERE_COEFF: 8,
+  CC_COMMON_YEAR_COEFF: 3,       // HG, LVA, LVB, SCI/MATHS per year
+  CC_EMC_YEAR_COEFF: 1,          // EMC per year
+  CC_EPS_TOTAL_COEFF: 6,
+  FRANCAIS_ECRIT_COEFF: 5,
+  FRANCAIS_ORAL_COEFF: 5,
+  MATHS_ANTICIPEES_COEFF: 2,     // session 2027+
+  SPECIALITE_TERMINALE_COEFF: 16,
+  PHILO_GENERAL_COEFF: 8,
+  PHILO_TECHNO_COEFF: 4,
+  GRAND_ORAL_GENERAL_2026_COEFF: 10,
+  GRAND_ORAL_TECHNO_2026_COEFF: 14,
+  GRAND_ORAL_GENERAL_2027_COEFF: 8,
+  GRAND_ORAL_TECHNO_2027_COEFF: 12,
+  OPTION_PER_YEAR_COEFF: 2,
+  ADMISSION_THRESHOLD: 10,
+  RATTRAPAGE_THRESHOLD: 8,
+  MENTION_AB_THRESHOLD: 12,
+  MENTION_B_THRESHOLD: 14,
+  MENTION_TB_THRESHOLD: 16,
+  MENTION_TBJ_THRESHOLD: 18,
+  JURY_BONUS_MAX_POINTS: 50
+});
+
+var SOURCES = [
+  {n:"Part du contrôle continu",t:"40 %",a:"Baccalauréats général et technologique, candidats scolaires standard",s:"Ministère de l'Éducation nationale",u:"https://www.education.gouv.fr/reussir-au-lycee/comment-calculer-votre-note-au-baccalaureat-325511",d:"03/12/2025"},
+  {n:"Part des épreuves terminales",t:"60 %",a:"Baccalauréats général et technologique, candidats scolaires standard",s:"Ministère de l'Éducation nationale",u:"https://www.education.gouv.fr/reussir-au-lycee/comment-calculer-votre-note-au-baccalaureat-325511",d:"03/12/2025"},
+  {n:"Coefficients CC obligatoires",t:"Spécialité de 1re: 8 ; HG: 6 ; LVA: 6 ; LVB: 6 ; Sci/Maths: 6 ; EPS: 6 ; EMC: 2",a:"Voies générale et technologique",s:"Éduscol — Contrôle continu",u:"https://eduscol.education.gouv.fr/5676/le-controle-continu-des-candidats-scolaires-au-baccalaureat-general-ou-technologique",d:"19/03/2026"},
+  {n:"Options facultatives",t:"2 par option et par an",a:"Voies générale et technologique ; LCA latin/grec en sus",s:"Ministère + arrêtés du 16 juillet 2018",u:"https://www.education.gouv.fr/reussir-au-lycee/comment-calculer-votre-note-au-baccalaureat-325511",d:"03/12/2025"},
+  {n:"Épreuves terminales 2026 — voie générale",t:"Français écrit 5 ; français oral 5 ; spécialité 1: 16 ; spécialité 2: 16 ; philosophie: 8 ; Grand oral: 10",a:"Voie générale, jusqu'à la session 2026",s:"Éduscol — Épreuves terminales bac général",u:"https://eduscol.education.gouv.fr/5706/les-epreuves-terminales-du-baccalaureat-general",d:"19/03/2026"},
+  {n:"Épreuves terminales 2026 — voie technologique",t:"Français écrit 5 ; français oral 5 ; spécialité 1: 16 ; spécialité 2: 16 ; philosophie: 4 ; Grand oral: 14",a:"Voie technologique, jusqu'à la session 2026",s:"Éduscol — Épreuves terminales bac technologique",u:"https://eduscol.education.gouv.fr/5616/les-epreuves-terminales-du-baccalaureat-technologique",d:"19/03/2026"},
+  {n:"Réforme session 2027",t:"Maths anticipées coeff. 2 ; Grand oral abaissé à 8 (G) / 12 (T)",a:"Voies générale et technologique à compter de 2027",s:"Décret n°2025-513 du 10 juin 2025",u:"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051714265",d:"10/06/2025"},
+  {n:"Arrondi réglementaire CC",t:"Arrondi au dixième de point supérieur",a:"Enseignements sans épreuve terminale",s:"Code de l'éducation, art. D334-8 et D336-8",u:"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043864996/",d:"19/03/2026"},
+  {n:"Seuil d'admission",t:"Moyenne ≥ 10/20",a:"Premier groupe ou après recalcul du second groupe",s:"Code de l'éducation — conditions de délivrance",u:"https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166854/",d:"19/03/2026"},
+  {n:"Seuil d'accès au rattrapage",t:"8/20 ≤ moyenne < 10/20",a:"Voies générale et technologique",s:"Code de l'éducation — conditions de délivrance",u:"https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166854/",d:"19/03/2026"},
+  {n:"Rattrapage : substitution",t:"La note d'oral remplace l'écrit si supérieure",a:"Deux épreuves orales du second groupe",s:"Ministère — FAQ sur le baccalauréat",u:"https://www.education.gouv.fr/reussir-au-lycee/tout-savoir-sur-le-baccalaureat-les-reponses-vos-questions-325499",d:"28/11/2025"},
+  {n:"Mentions",t:"AB: 12 ; B: 14 ; TB: 16 ; TB avec félicitations: 18",a:"Admis au premier groupe uniquement",s:"Éduscol — Présentation du baccalauréat général",u:"https://eduscol.education.gouv.fr/5700/presentation-du-baccalaureat-general",d:"19/03/2026"},
+  {n:"Pas de mention après rattrapage",t:"Aucune mention au second groupe",a:"Voies générale et technologique",s:"Code de l'éducation",u:"https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166854/",d:"19/03/2026"},
+  {n:"Points supplémentaires du jury",t:"Maximum 50 points à compter de la session 2026",a:"À compter de la session 2026",s:"Décret n°2025-1159 du 4 décembre 2025",u:"https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052990602",d:"04/12/2025"},
+  {n:"Régime distinct STAV",t:"Hors périmètre du simulateur standard",a:"Baccalauréat technologique série STAV",s:"Arrêté du 28 juillet 2025",u:"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052032817/",d:"28/07/2025"}
+];
+
+var SOURCE_LINKS = [
+  {t:"Ministère de l'Éducation nationale — Comment calculer votre note au baccalauréat",d:"Répartition 40 %/60 %, coefficients et changements à compter de 2027.",u:"https://www.education.gouv.fr/reussir-au-lycee/comment-calculer-votre-note-au-baccalaureat-325511"},
+  {t:"Éduscol — Le contrôle continu des candidats scolaires au baccalauréat général ou technologique",d:"Matières concernées par le CC, coefficients par année et cas particuliers.",u:"https://eduscol.education.gouv.fr/5676/le-controle-continu-des-candidats-scolaires-au-baccalaureat-general-ou-technologique"},
+  {t:"Éduscol — Les épreuves terminales du baccalauréat général",d:"Épreuves terminales, coefficients, nature et bascule 2026/2027 en voie générale.",u:"https://eduscol.education.gouv.fr/5706/les-epreuves-terminales-du-baccalaureat-general"},
+  {t:"Éduscol — Les épreuves terminales du baccalauréat technologique",d:"Épreuves terminales, coefficients, nature et bascule 2026/2027 en voie technologique.",u:"https://eduscol.education.gouv.fr/5616/les-epreuves-terminales-du-baccalaureat-technologique"},
+  {t:"Légifrance — Code de l'éducation (conditions de délivrance du bac)",d:"Texte réglementaire pour l'arrondi du CC, l'admission, le rattrapage et les mentions.",u:"https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166854/"}
+];
+
+/* =============================================================
+   STORAGE / STATE
+============================================================= */
+var STORAGE_KEY = 'calc_bac_state_v1';
+var COOKIE_KEY  = 'calc_bac_cookies_v1';
+var cookies = { essential: true };
+var lastResult = null;
+
+/* =============================================================
+   FORMULAS
+============================================================= */
+function clampNote(x) {
+  if (isNaN(x)) return NaN;
+  return Math.max(CFG.NOTE_MIN, Math.min(CFG.NOTE_MAX, x));
+}
+
+function roundUpTenth(x) {
+  if (isNaN(x)) return NaN;
+  return Math.ceil(clampNote(x) * 10) / 10;
+}
+
+function ccNoteCycle(avg1, avg2, w1, w2) {
+  if (isNaN(avg1) || isNaN(avg2)) return NaN;
+  return roundUpTenth(((avg1 * w1) + (avg2 * w2)) / (w1 + w2));
+}
+
+function parseField(id) {
+  var el = document.getElementById(id);
+  if (!el || el.value === '' || el.value === null) return NaN;
+  var v = parseFloat(el.value);
+  return isNaN(v) ? NaN : clampNote(v);
+}
+
+function getSession() {
+  var s = document.getElementById('sessionSelect');
+  return s ? parseInt(s.value) : CFG.SESSION_2026;
+}
+
+function getVoie() {
+  var r = document.querySelector('input[name="voie"]:checked');
+  return r ? r.value : 'generale';
+}
+
+/* =============================================================
+   OPT ROWS (options standard)
+============================================================= */
+function buildOptRows() {
+  var count = parseInt(document.getElementById('optStdCount').value) || 0;
+  var container = document.getElementById('optStdContainer');
+  container.innerHTML = '';
+  for (var i = 1; i <= count; i++) {
+    var scopeId = 'optStd' + i + 'Scope';
+    var note1Id = 'optStd' + i + '1ere';
+    var noteTId = 'optStd' + i + 'Term';
+    container.innerHTML += '<div class="opt-row-group">' +
+      '<div class="opt-row-group-head">Option ' + i + '</div>' +
+      '<div class="field"><label class="field-label" for="' + scopeId + '">Année(s) suivie(s)</label>' +
+      '<select id="' + scopeId + '" onchange="updateOptRowDisplay(' + i + ');recalc()">' +
+      '<option value="inactive">Non active</option>' +
+      '<option value="1ere">1re seulement</option>' +
+      '<option value="term">Terminale seulement</option>' +
+      '<option value="both">1re + terminale</option>' +
+      '</select></div>' +
+      '<div id="optStd' + i + 'Notes" style="display:none">' +
+      '<div class="two-cols" style="margin-top:8px">' +
+      '<div class="field" id="optStd' + i + 'A"><label class="field-label" for="' + note1Id + '">Note 1re</label><input type="number" id="' + note1Id + '" min="0" max="20" step="0.1" placeholder="Ex : 13" oninput="recalc()"></div>' +
+      '<div class="field" id="optStd' + i + 'B"><label class="field-label" for="' + noteTId + '">Note terminale</label><input type="number" id="' + noteTId + '" min="0" max="20" step="0.1" placeholder="Ex : 12" oninput="recalc()"></div>' +
+      '</div></div>' +
+    '</div>';
+  }
+  recalc();
+}
+
+function updateOptRowDisplay(i) {
+  var scope = document.getElementById('optStd' + i + 'Scope');
+  if (!scope) return;
+  var v = scope.value;
+  var notesDiv = document.getElementById('optStd' + i + 'Notes');
+  var noteA = document.getElementById('optStd' + i + 'A');
+  var noteB = document.getElementById('optStd' + i + 'B');
+  if (notesDiv) notesDiv.style.display = (v === 'inactive') ? 'none' : 'block';
+  if (noteA) noteA.style.display = (v === 'term') ? 'none' : 'block';
+  if (noteB) noteB.style.display = (v === '1ere') ? 'none' : 'block';
+}
+
+function computeOptionPoints(scope, note1, noteTerm) {
+  var coeff1 = (scope === '1ere' || scope === 'both') ? CFG.OPTION_PER_YEAR_COEFF : 0;
+  var coeffT = (scope === 'term' || scope === 'both') ? CFG.OPTION_PER_YEAR_COEFF : 0;
+  var totalCoeff = coeff1 + coeffT;
+  var pts = 0;
+  if (coeff1 > 0 && !isNaN(note1)) pts += roundUpTenth(note1) * coeff1;
+  if (coeffT > 0 && !isNaN(noteTerm)) pts += roundUpTenth(noteTerm) * coeffT;
+  return { pts: pts, coeff: totalCoeff };
+}
+
+/* =============================================================
+   UPDATE UI FOR SESSION / VOIE
+============================================================= */
+function onSessionChange() {
+  var session = getSession();
+  var is2027 = (session === CFG.SESSION_2027);
+
+  document.getElementById('mathsAnticipeesSection').style.display = is2027 ? 'block' : 'none';
+
+  var optM2027a = document.getElementById('optMaths2027a');
+  var optM2027b = document.getElementById('optMaths2027b');
+  if (optM2027a) optM2027a.style.display = is2027 ? 'block' : 'none';
+  if (optM2027b) optM2027b.style.display = is2027 ? 'block' : 'none';
+
+  document.getElementById('sessionNote').textContent = is2027
+    ? 'Session 2027+ : mathématiques anticipées (coeff. 2) incluses. Grand oral abaissé à 8 (G) / 12 (T).'
+    : 'Session 2026 : Grand oral coeff. 10 (G) / 14 (T). Pas de mathématiques anticipées.';
+
+  updateVoieLabels();
+  recalc();
+}
+
+function updateVoieLabels() {
+  var voie = getVoie();
+  var session = getSession();
+  var isTech = (voie === 'technologique');
+  var is2027 = (session === CFG.SESSION_2027);
+
+  var sciLbl = document.getElementById('sciLabel');
+  var sci1Lbl = document.getElementById('sci1ereLabel');
+  var sciTLbl = document.getElementById('sciTermLabel');
+  if (isTech) {
+    if (sciLbl) sciLbl.firstChild.textContent = 'Mathématiques (coeff. 6 total : 3 par an)';
+    if (sci1Lbl) sci1Lbl.textContent = 'Mathématiques — 1re';
+    if (sciTLbl) sciTLbl.textContent = 'Mathématiques — terminale';
+  } else {
+    if (sciLbl) sciLbl.firstChild.textContent = 'Enseignement scientifique (coeff. 6 total : 3 par an)';
+    if (sci1Lbl) sci1Lbl.textContent = 'Enseign. scientifique — 1re';
+    if (sciTLbl) sciTLbl.textContent = 'Enseign. scientifique — terminale';
+  }
+
+  var philoCoeff = isTech ? CFG.PHILO_TECHNO_COEFF : CFG.PHILO_GENERAL_COEFF;
+  var philoLbl = document.getElementById('philoLabel');
+  if (philoLbl) philoLbl.firstChild.textContent = 'Philosophie (coeff. ' + philoCoeff + ')';
+
+  var grandOralCoeff;
+  if (isTech) grandOralCoeff = is2027 ? CFG.GRAND_ORAL_TECHNO_2027_COEFF : CFG.GRAND_ORAL_TECHNO_2026_COEFF;
+  else        grandOralCoeff = is2027 ? CFG.GRAND_ORAL_GENERAL_2027_COEFF : CFG.GRAND_ORAL_GENERAL_2026_COEFF;
+
+  var goCoeffText = document.getElementById('grandOralCoeffText');
+  if (goCoeffText) goCoeffText.textContent = grandOralCoeff;
+  var goNote = document.getElementById('grandOralNote');
+  if (goNote) goNote.textContent = (isTech ? 'Voie technologique' : 'Voie générale') + (is2027 ? ' 2027+ : coefficient ' : ' 2026 : coefficient ') + grandOralCoeff + '.';
+}
+
+function updateLatinNotes() {
+  var s = document.getElementById('latinScope').value;
+  var div = document.getElementById('latinNotes');
+  if (div) div.style.display = (s === 'inactive') ? 'none' : 'block';
+  var a = document.getElementById('latinNoteA');
+  var b = document.getElementById('latinNoteB');
+  if (a) a.style.display = (s === 'term') ? 'none' : 'block';
+  if (b) b.style.display = (s === '1ere') ? 'none' : 'block';
+}
+
+function updateGrecNotes() {
+  var s = document.getElementById('grecScope').value;
+  var div = document.getElementById('grecNotes');
+  if (div) div.style.display = (s === 'inactive') ? 'none' : 'block';
+  var a = document.getElementById('grecNoteA');
+  var b = document.getElementById('grecNoteB');
+  if (a) a.style.display = (s === 'term') ? 'none' : 'block';
+  if (b) b.style.display = (s === '1ere') ? 'none' : 'block';
+}
+
+/* =============================================================
+   MAIN RECALC
+============================================================= */
+function recalc() {
+  updateVoieLabels();
+  updateLatinNotes();
+  updateGrecNotes();
+
+  var session = getSession();
+  var voie = getVoie();
+  var isTech = (voie === 'technologique');
+  var is2027 = (session === CFG.SESSION_2027);
+
+  /* --- CC OBLIGATOIRE --- */
+  var specPremiereNote = parseField('specPremiere');
+  var hg1ere = parseField('hg1ere');
+  var hgTerm = parseField('hgTerm');
+  var lva1ere = parseField('lva1ere');
+  var lvaTerm = parseField('lvaTerm');
+  var lvb1ere = parseField('lvb1ere');
+  var lvbTerm = parseField('lvbTerm');
+  var sci1ere = parseField('sci1ere');
+  var sciTerm = parseField('sciTerm');
+  var epsCcf = parseField('epsCcf');
+  var emc1ere = parseField('emc1ere');
+  var emcTerm = parseField('emcTerm');
+
+  /* --- ANTICIPÉES --- */
+  var francaisEcrit = parseField('francaisEcrit');
+  var francaisOral = parseField('francaisOral');
+  var mathsAnticipees = is2027 ? parseField('mathsAnticipees') : NaN;
+
+  /* --- TERMINALES --- */
+  var spec1 = parseField('spec1');
+  var spec2 = parseField('spec2');
+  var philo = parseField('philo');
+  var grandOral = parseField('grandOral');
+
+  /* --- COEFFICIENTS VARIABLES --- */
+  var philoCoeff = isTech ? CFG.PHILO_TECHNO_COEFF : CFG.PHILO_GENERAL_COEFF;
+  var grandOralCoeff = isTech
+    ? (is2027 ? CFG.GRAND_ORAL_TECHNO_2027_COEFF : CFG.GRAND_ORAL_TECHNO_2026_COEFF)
+    : (is2027 ? CFG.GRAND_ORAL_GENERAL_2027_COEFF : CFG.GRAND_ORAL_GENERAL_2026_COEFF);
+
+  /* --- CHECK NOTES HORS BORNES --- */
+  var alerts = [];
+  function checkOutOfRange(val, name) {
+    if (!isNaN(val) && (val < 0 || val > 20)) {
+      alerts.push({sev:'error', msg:'Une note du bac doit être comprise entre 0 et 20 — vérifiez ' + name + '.'});
+    }
+  }
+
+  /* --- CC CALCULATIONS --- */
+  var ccSpecPremierePts = NaN, ccHgPts = NaN, ccLvaPts = NaN, ccLvbPts = NaN;
+  var ccSciPts = NaN, ccEpsPts = NaN, ccEmcPts = NaN;
+
+  if (!isNaN(specPremiereNote)) ccSpecPremierePts = roundUpTenth(specPremiereNote) * CFG.CC_SPECIALITE_PREMIERE_COEFF;
+  if (!isNaN(hg1ere) && !isNaN(hgTerm)) {
+    var hgNote = ccNoteCycle(hg1ere, hgTerm, CFG.CC_COMMON_YEAR_COEFF, CFG.CC_COMMON_YEAR_COEFF);
+    ccHgPts = hgNote * (CFG.CC_COMMON_YEAR_COEFF * 2);
+  }
+  if (!isNaN(lva1ere) && !isNaN(lvaTerm)) {
+    var lvaNote = ccNoteCycle(lva1ere, lvaTerm, CFG.CC_COMMON_YEAR_COEFF, CFG.CC_COMMON_YEAR_COEFF);
+    ccLvaPts = lvaNote * (CFG.CC_COMMON_YEAR_COEFF * 2);
+  }
+  if (!isNaN(lvb1ere) && !isNaN(lvbTerm)) {
+    var lvbNote = ccNoteCycle(lvb1ere, lvbTerm, CFG.CC_COMMON_YEAR_COEFF, CFG.CC_COMMON_YEAR_COEFF);
+    ccLvbPts = lvbNote * (CFG.CC_COMMON_YEAR_COEFF * 2);
+  }
+  if (!isNaN(sci1ere) && !isNaN(sciTerm)) {
+    var sciNote = ccNoteCycle(sci1ere, sciTerm, CFG.CC_COMMON_YEAR_COEFF, CFG.CC_COMMON_YEAR_COEFF);
+    ccSciPts = sciNote * (CFG.CC_COMMON_YEAR_COEFF * 2);
+  }
+  if (!isNaN(epsCcf)) ccEpsPts = roundUpTenth(epsCcf) * CFG.CC_EPS_TOTAL_COEFF;
+  if (!isNaN(emc1ere) && !isNaN(emcTerm)) {
+    var emcNote = ccNoteCycle(emc1ere, emcTerm, CFG.CC_EMC_YEAR_COEFF, CFG.CC_EMC_YEAR_COEFF);
+    ccEmcPts = emcNote * (CFG.CC_EMC_YEAR_COEFF * 2);
+  }
+
+  /* --- ANTICIPÉES POINTS --- */
+  var ptsFrancaisEcrit = !isNaN(francaisEcrit) ? francaisEcrit * CFG.FRANCAIS_ECRIT_COEFF : NaN;
+  var ptsFrancaisOral  = !isNaN(francaisOral)  ? francaisOral  * CFG.FRANCAIS_ORAL_COEFF  : NaN;
+  var ptsMathsAntic    = is2027 && !isNaN(mathsAnticipees) ? mathsAnticipees * CFG.MATHS_ANTICIPEES_COEFF : NaN;
+
+  /* --- TERMINALES POINTS --- */
+  var ptsSpec1     = !isNaN(spec1)     ? spec1     * CFG.SPECIALITE_TERMINALE_COEFF : NaN;
+  var ptsSpec2     = !isNaN(spec2)     ? spec2     * CFG.SPECIALITE_TERMINALE_COEFF : NaN;
+  var ptsPhilo     = !isNaN(philo)     ? philo     * philoCoeff                     : NaN;
+  var ptsGrandOral = !isNaN(grandOral) ? grandOral * grandOralCoeff                 : NaN;
+
+  /* --- MANDATORY FIELDS CHECK --- */
+  var mandatoryIds = [
+    { val: specPremiereNote, lbl: 'spécialité de 1re' },
+    { val: hg1ere, lbl: 'HG 1re' }, { val: hgTerm, lbl: 'HG terminale' },
+    { val: lva1ere, lbl: 'LVA 1re' }, { val: lvaTerm, lbl: 'LVA terminale' },
+    { val: lvb1ere, lbl: 'LVB 1re' }, { val: lvbTerm, lbl: 'LVB terminale' },
+    { val: sci1ere, lbl: 'enseign. scientifique/maths 1re' }, { val: sciTerm, lbl: 'enseign. scientifique/maths terminale' },
+    { val: epsCcf, lbl: 'EPS' },
+    { val: emc1ere, lbl: 'EMC 1re' }, { val: emcTerm, lbl: 'EMC terminale' },
+    { val: francaisEcrit, lbl: 'français écrit' }, { val: francaisOral, lbl: 'français oral' },
+    { val: spec1, lbl: 'spécialité 1 terminale' }, { val: spec2, lbl: 'spécialité 2 terminale' },
+    { val: philo, lbl: 'philosophie' }, { val: grandOral, lbl: 'grand oral' }
+  ];
+  if (is2027) mandatoryIds.push({ val: mathsAnticipees, lbl: 'mathématiques anticipées' });
+
+  var anyFilled = mandatoryIds.some(function(f) { return !isNaN(f.val); });
+  if (!anyFilled) {
+    showEmpty();
+    return;
+  }
+
+  var missingMandatory = mandatoryIds.filter(function(f) { return isNaN(f.val); });
+  if (missingMandatory.length > 0) {
+    alerts.push({ sev: 'error', msg: 'Simulation incomplète : renseignez toutes les notes obligatoires ou vos notes prévues pour obtenir une moyenne finale exploitable.' });
+  }
+
+  if (is2027 && isNaN(mathsAnticipees)) {
+    if (!alerts.some(function(a) { return a.msg.indexOf('incomplète') >= 0; })) {
+      alerts.push({ sev: 'error', msg: 'À partir de la session 2027, l\'épreuve anticipée de mathématiques (coefficient 2) fait partie du calcul.' });
+    }
+  }
+
+  /* --- OPTIONS --- */
+  var optionsActive = document.getElementById('opt-options').classList.contains('on');
+  var optionPts = 0, optionCoeff = 0;
+  var optionWarning = false;
+  if (optionsActive) {
+    var count = parseInt(document.getElementById('optStdCount').value) || 0;
+    for (var i = 1; i <= count; i++) {
+      var scope = document.getElementById('optStd' + i + 'Scope') ? document.getElementById('optStd' + i + 'Scope').value : 'inactive';
+      if (scope === 'inactive') continue;
+      var n1 = parseField('optStd' + i + '1ere');
+      var nT = parseField('optStd' + i + 'Term');
+      var res = computeOptionPoints(scope, n1, nT);
+      optionPts += res.pts;
+      optionCoeff += res.coeff;
+      var avgOpt = (res.coeff > 0) ? (res.pts / res.coeff) : NaN;
+      if (!isNaN(avgOpt) && avgOpt < 10) optionWarning = true;
+    }
+
+    var latinScope = document.getElementById('latinScope').value;
+    if (latinScope !== 'inactive') {
+      var nLa = parseField('latin1ere'); var nLt = parseField('latinTerm');
+      var rL = computeOptionPoints(latinScope, nLa, nLt);
+      optionPts += rL.pts; optionCoeff += rL.coeff;
+      if (rL.coeff > 0 && (rL.pts / rL.coeff) < 10) optionWarning = true;
+    }
+    var grecScope = document.getElementById('grecScope').value;
+    if (grecScope !== 'inactive') {
+      var nGa = parseField('grec1ere'); var nGt = parseField('grecTerm');
+      var rG = computeOptionPoints(grecScope, nGa, nGt);
+      optionPts += rG.pts; optionCoeff += rG.coeff;
+      if (rG.coeff > 0 && (rG.pts / rG.coeff) < 10) optionWarning = true;
+    }
+    if (optionWarning) {
+      alerts.push({ sev: 'warn', msg: 'Les options ajoutent des points, mais aussi des coefficients : une note faible peut faire baisser la moyenne finale.' });
+    }
+  }
+
+  /* --- TOTAL CALCULATION --- */
+  var allObligPts = [ccSpecPremierePts, ccHgPts, ccLvaPts, ccLvbPts, ccSciPts, ccEpsPts, ccEmcPts,
+    ptsFrancaisEcrit, ptsFrancaisOral, ptsSpec1, ptsSpec2, ptsPhilo, ptsGrandOral];
+  if (is2027) allObligPts.push(ptsMathsAntic);
+
+  var complete = missingMandatory.length === 0;
+
+  // Base = 100 for both sessions: maths anticipées 2027 (+2) offset exactly by Grand oral drop (-2).
+  var totalCoeff = CFG.BASE_TOTAL_COEFF + optionCoeff;
+
+  var obligPtsComputed = 0;
+  allObligPts.forEach(function(p) { if (!isNaN(p)) obligPtsComputed += p; });
+  var totalPts = obligPtsComputed + optionPts;
+
+  var moyenne = totalPts / totalCoeff;
+
+  /* --- STATUS --- */
+  var statut, mention, bannerClass;
+  if (!complete) {
+    statut = 'Incomplet'; mention = '—'; bannerClass = 'admis';
+  } else {
+    if (moyenne >= CFG.ADMISSION_THRESHOLD) {
+      statut = 'Admis au 1er groupe';
+      if      (moyenne >= CFG.MENTION_TBJ_THRESHOLD) { mention = 'TB + félicitations'; bannerClass = 'mention'; }
+      else if (moyenne >= CFG.MENTION_TB_THRESHOLD)  { mention = 'Très bien'; bannerClass = 'mention'; }
+      else if (moyenne >= CFG.MENTION_B_THRESHOLD)   { mention = 'Bien'; bannerClass = 'mention'; }
+      else if (moyenne >= CFG.MENTION_AB_THRESHOLD)  { mention = 'Assez bien'; bannerClass = 'mention'; }
+      else                                            { mention = 'Sans mention'; bannerClass = 'admis'; }
+    } else if (moyenne >= CFG.RATTRAPAGE_THRESHOLD) {
+      statut = 'Admissible au rattrapage'; mention = '—'; bannerClass = 'rattrapage';
+    } else {
+      statut = 'Ajourné'; mention = '—'; bannerClass = 'ajourne';
+    }
+  }
+
+  /* --- PROXIMITY ALERT --- */
+  if (complete) {
+    var thresholds = [CFG.RATTRAPAGE_THRESHOLD, CFG.ADMISSION_THRESHOLD, CFG.MENTION_AB_THRESHOLD, CFG.MENTION_B_THRESHOLD, CFG.MENTION_TB_THRESHOLD, CFG.MENTION_TBJ_THRESHOLD];
+    var close = thresholds.some(function(t) { return Math.abs(moyenne - t) <= 0.2; });
+    if (close) alerts.push({ sev: 'info', msg: 'Vous êtes très proche d\'un seuil réglementaire ; de petits écarts de note peuvent changer le verdict ou la mention.' });
+    alerts.push({ sev: 'info', msg: 'Le jury peut harmoniser les résultats et, à compter de la session 2026, ajouter jusqu\'à 50 points. Ce simulateur ne prédit pas cette délibération.' });
+  }
+
+  /* --- RATTRAPAGE --- */
+  var rattrapageActive = document.getElementById('opt-rattrapage').classList.contains('on');
+  var moyenneRattrapage = null;
+  var rattrapageAlerts = [];
+  var COEFF_MAP = {
+    francaisEcrit: CFG.FRANCAIS_ECRIT_COEFF,
+    philo: philoCoeff,
+    spec1: CFG.SPECIALITE_TERMINALE_COEFF,
+    spec2: CFG.SPECIALITE_TERMINALE_COEFF,
+    mathsAnticipees: CFG.MATHS_ANTICIPEES_COEFF
+  };
+  var NOTE_MAP = {
+    francaisEcrit: francaisEcrit, philo: philo, spec1: spec1, spec2: spec2, mathsAnticipees: mathsAnticipees
+  };
+
+  if (rattrapageActive && complete) {
+    if (moyenne < CFG.RATTRAPAGE_THRESHOLD) {
+      rattrapageAlerts.push({ sev: 'warn', msg: 'Le rattrapage officiel n\'est accessible qu\'entre 8/20 et moins de 10/20 au premier groupe.' });
+    } else if (moyenne >= CFG.ADMISSION_THRESHOLD) {
+      rattrapageAlerts.push({ sev: 'info', msg: 'Avec une moyenne d\'au moins 10/20, vous êtes déjà admis au premier groupe ; le rattrapage n\'a pas de sens réglementaire.' });
+    } else {
+      var o1Mat = document.getElementById('oral1Matiere').value;
+      var o2Mat = document.getElementById('oral2Matiere').value;
+      var o1Note = parseField('oral1Note');
+      var o2Note = parseField('oral2Note');
+
+      if (o1Mat && o2Mat && o1Mat === o2Mat) {
+        rattrapageAlerts.push({ sev: 'error', msg: 'Les deux matières du rattrapage doivent être différentes.' });
+      } else {
+        var deltaPoints = 0;
+        function applyRattrapage(matKey, oralNote) {
+          if (!matKey || isNaN(oralNote)) return;
+          var ecrit = NOTE_MAP[matKey];
+          var coeff = COEFF_MAP[matKey];
+          if (isNaN(ecrit) || !coeff) return;
+          if (oralNote > ecrit) {
+            deltaPoints += (oralNote - ecrit) * coeff;
+          } else {
+            rattrapageAlerts.push({ sev: 'info', msg: 'La note d\'oral ne remplace l\'écrit que si elle est supérieure. Ici, aucun gain n\'est généré pour ' + matKey + '.' });
+          }
+        }
+        applyRattrapage(o1Mat, o1Note);
+        applyRattrapage(o2Mat, o2Note);
+        var ptsRattrapage = totalPts + deltaPoints;
+        moyenneRattrapage = ptsRattrapage / totalCoeff;
+      }
+    }
+  }
+
+  /* --- POINTS MANQUANTS --- */
+  var seuilsListe = [
+    { label: 'Rattrapage (8)', seuil: 8 },
+    { label: 'Admis (10)', seuil: 10 },
+    { label: 'Mention AB (12)', seuil: 12 },
+    { label: 'Mention B (14)', seuil: 14 },
+    { label: 'Mention TB (16)', seuil: 16 },
+    { label: 'TB + félicit. (18)', seuil: 18 }
+  ];
+
+  /* ===== SAVE RESULT ===== */
+  lastResult = {
+    session: session, voie: voie, moyenne: moyenne, totalPts: totalPts,
+    totalCoeff: totalCoeff, statut: statut, mention: mention,
+    moyenneRattrapage: moyenneRattrapage, complete: complete
+  };
+  saveStorage();
+
+  /* ===== UPDATE UI ===== */
+  document.getElementById('emptyState').style.display = 'none';
+  document.getElementById('resultsContent').style.display = 'block';
+
+  // Metrics
+  document.getElementById('metricMoyenne').textContent = complete ? moyenne.toFixed(2) : '—';
+  document.getElementById('metricMention').textContent = mention;
+
+  // Banner
+  var banner = document.getElementById('catBanner');
+  banner.className = 'cat-banner ' + bannerClass;
+  document.getElementById('catBannerLabel').textContent = statut;
+
+  // Alerts top
+  var az = document.getElementById('alertsZone');
+  az.innerHTML = '';
+  alerts.filter(function(a) { return a.sev === 'error'; }).forEach(function(a) {
+    az.innerHTML += '<div class="alert ' + a.sev + '"><span class="ui-icon alert-icon" data-icon="' + a.sev + 'warning.svg" aria-hidden="true"></span>' + a.msg + '</div>';
+  });
+
+  // Rattrapage alerts
+  var raz = document.getElementById('rattrapageAlertZone');
+  raz.innerHTML = '';
+  rattrapageAlerts.forEach(function(a) {
+    raz.innerHTML += '<div class="alert ' + a.sev + '"><span class="ui-icon alert-icon" data-icon="' + a.sev + '.svg" aria-hidden="true"></span>' + a.msg + '</div>';
+  });
+
+  // Breakdown
+  var bz = document.getElementById('breakdownZone');
+  bz.innerHTML = buildBreakdown(
+    { ccSpecPremierePts: ccSpecPremierePts, ccHgPts: ccHgPts, ccLvaPts: ccLvaPts, ccLvbPts: ccLvbPts, ccSciPts: ccSciPts, ccEpsPts: ccEpsPts, ccEmcPts: ccEmcPts },
+    { ptsFrancaisEcrit: ptsFrancaisEcrit, ptsFrancaisOral: ptsFrancaisOral, ptsMathsAntic: ptsMathsAntic },
+    { ptsSpec1: ptsSpec1, ptsSpec2: ptsSpec2, ptsPhilo: ptsPhilo, ptsGrandOral: ptsGrandOral },
+    { optionPts: optionPts, optionCoeff: optionCoeff },
+    { moyenneRattrapage: moyenneRattrapage, rattrapageActive: rattrapageActive, complete: complete },
+    { totalPts: totalPts, totalCoeff: totalCoeff, seuilsListe: seuilsListe },
+    { isTech: isTech, is2027: is2027, philoCoeff: philoCoeff, grandOralCoeff: grandOralCoeff, complete: complete }
+  );
+
+  // Alerts bottom (non-error)
+  var azb = document.getElementById('alertsZoneBottom');
+  azb.innerHTML = '';
+  alerts.filter(function(a) { return a.sev !== 'error'; }).forEach(function(a) {
+    azb.innerHTML += '<div class="alert ' + a.sev + '"><span class="ui-icon alert-icon" data-icon="' + (a.sev === 'warn' ? 'warning' : a.sev) + '.svg" aria-hidden="true"></span>' + a.msg + '</div>';
+  });
+
+  hydrateIcons();
+}
+
+function fmt(val, suffix) {
+  if (isNaN(val) || val === null) return '—';
+  return (Math.round(val * 100) / 100) + (suffix || '');
+}
+
+function buildBreakdown(cc, anticipees, terminales, options, rattrapage, seuils, meta) {
+  var h = '';
+
+  // CC
+  var ccTotal = 0;
+  [cc.ccSpecPremierePts, cc.ccHgPts, cc.ccLvaPts, cc.ccLvbPts, cc.ccSciPts, cc.ccEpsPts, cc.ccEmcPts].forEach(function(p) { if (!isNaN(p)) ccTotal += p; });
+  h += bkGroup('Contrôle continu obligatoire', fmt(ccTotal, ' pts') + ' / 40', true, [
+    bkRow('Spécialité de 1re', 'coeff. 8', fmt(cc.ccSpecPremierePts, ' pts')),
+    bkRow('Histoire-géographie', 'coeff. 6', fmt(cc.ccHgPts, ' pts')),
+    bkRow('Langue vivante A', 'coeff. 6', fmt(cc.ccLvaPts, ' pts')),
+    bkRow('Langue vivante B', 'coeff. 6', fmt(cc.ccLvbPts, ' pts')),
+    bkRow(meta.isTech ? 'Mathématiques' : 'Enseign. scientifique', 'coeff. 6', fmt(cc.ccSciPts, ' pts')),
+    bkRow('EPS — CCF', 'coeff. 6', fmt(cc.ccEpsPts, ' pts')),
+    bkRow('EMC', 'coeff. 2', fmt(cc.ccEmcPts, ' pts'))
+  ]);
+
+  // Anticipées
+  var anticipTotal = 0;
+  [anticipees.ptsFrancaisEcrit, anticipees.ptsFrancaisOral].forEach(function(p) { if (!isNaN(p)) anticipTotal += p; });
+  if (meta.is2027 && !isNaN(anticipees.ptsMathsAntic)) anticipTotal += anticipees.ptsMathsAntic;
+  var anticipCoeff = 10 + (meta.is2027 ? 2 : 0);
+  h += bkGroup('Épreuves anticipées', fmt(anticipTotal, ' pts') + ' / ' + anticipCoeff, true, [
+    bkRow('Français écrit', 'coeff. 5', fmt(anticipees.ptsFrancaisEcrit, ' pts')),
+    bkRow('Français oral', 'coeff. 5', fmt(anticipees.ptsFrancaisOral, ' pts')),
+    meta.is2027 ? bkRow('Mathématiques anticipées', 'coeff. 2', fmt(anticipees.ptsMathsAntic, ' pts')) : ''
+  ]);
+
+  // Terminales
+  var termTotal = 0;
+  [terminales.ptsSpec1, terminales.ptsSpec2, terminales.ptsPhilo, terminales.ptsGrandOral].forEach(function(p) { if (!isNaN(p)) termTotal += p; });
+  var termCoeff = 32 + meta.philoCoeff + meta.grandOralCoeff;
+  h += bkGroup('Épreuves terminales', fmt(termTotal, ' pts') + ' / ' + termCoeff, true, [
+    bkRow('Spécialité 1', 'coeff. 16', fmt(terminales.ptsSpec1, ' pts')),
+    bkRow('Spécialité 2', 'coeff. 16', fmt(terminales.ptsSpec2, ' pts')),
+    bkRow('Philosophie', 'coeff. ' + meta.philoCoeff, fmt(terminales.ptsPhilo, ' pts')),
+    bkRow('Grand oral', 'coeff. ' + meta.grandOralCoeff, fmt(terminales.ptsGrandOral, ' pts'))
+  ]);
+
+  // Options
+  if (options.optionCoeff > 0) {
+    h += bkGroup('Options facultatives', fmt(options.optionPts, ' pts') + ' / ' + options.optionCoeff, false, [
+      bkRow('Points d\'options', 'coeff. additionnel +' + options.optionCoeff, fmt(options.optionPts, ' pts'))
+    ]);
+  }
+
+  // Rattrapage
+  if (rattrapage.rattrapageActive && rattrapage.moyenneRattrapage !== null && meta.complete) {
+    h += bkGroup('Simulation du rattrapage', 'Moy. recalculée : ' + rattrapage.moyenneRattrapage.toFixed(2) + '/20', false, [
+      bkRow('Statut après rattrapage', '', rattrapage.moyenneRattrapage >= 10 ? 'Admis' : 'Non admis', rattrapage.moyenneRattrapage >= 10 ? 'pos' : 'neg'),
+      bkRow('Mention après rattrapage', '', 'Aucune (règle officielle)', '')
+    ]);
+  }
+
+  // Seuils
+  if (meta.complete) {
+    var seuilRows = '';
+    seuils.seuilsListe.forEach(function(s) {
+      var manque = Math.max(0, (s.seuil * seuils.totalCoeff) - seuils.totalPts);
+      var done = seuils.totalPts >= s.seuil * seuils.totalCoeff;
+      seuilRows += '<div class="seuil-row"><span class="seuil-label">' + s.label + '</span><span class="seuil-val' + (done ? '' : ' manque') + '">' + (done ? 'Atteint' : '-' + Math.ceil(manque * 10) / 10 + ' pts') + '</span></div>';
+    });
+    h += bkGroup('Seuils &amp; écarts', '', false, [
+      '<div class="seuils-grid">' + seuilRows + '</div>'
+    ]);
+  }
+
+  return h;
+}
+
+function bkGroup(title, badge, open, rows) {
+  var rowsHtml = Array.isArray(rows) ? rows.join('') : rows;
+  return '<div class="bk-group' + (open ? ' open' : '') + '">' +
+    '<div class="bk-group-head" role="button" tabindex="0" onclick="toggleBkGroup(this)" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleBkGroup(this)}" aria-expanded="' + (open ? 'true' : 'false') + '">' +
+    '<div class="bk-group-title">' + title + '</div>' +
+    '<div style="display:flex;align-items:center;gap:6px"><span class="bk-group-amt">' + badge + '</span><span class="bk-arrow">&#9660;</span></div>' +
+    '</div>' +
+    '<div class="bk-rows">' + rowsHtml + '</div></div>';
+}
+
+function bkRow(name, detail, amt, cls) {
+  return '<div class="bk-row"><div class="bk-row-left"><div class="bk-row-name">' + name + '</div>' +
+    (detail ? '<div class="bk-row-detail">' + detail + '</div>' : '') +
+    '</div><div class="bk-row-amt' + (cls ? ' ' + cls : '') + '">' + amt + '</div></div>';
+}
+
+function toggleBkGroup(head) {
+  var group = head.closest('.bk-group');
+  var open = group.classList.toggle('open');
+  head.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+
+function showEmpty() {
+  document.getElementById('emptyState').style.display = 'block';
+  document.getElementById('resultsContent').style.display = 'none';
+  lastResult = null;
+}
+
+/* =============================================================
+   OPT TOGGLE
+============================================================= */
+function toggleOpt(key) {
+  var item = document.getElementById('opt-' + key);
+  if (!item) return;
+  var open = item.classList.toggle('on');
+  item.querySelector('.opt-toggle').setAttribute('aria-expanded', open ? 'true' : 'false');
+  recalc();
+}
+
+/* =============================================================
+   STORAGE
+============================================================= */
+function saveStorage() {
+  try {
+    var state = gatherState();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch(e) {}
+}
+
+function gatherState() {
+  function val(id) { var e = document.getElementById(id); return e ? e.value : ''; }
+  return {
+    session: val('sessionSelect'),
+    voie: (document.querySelector('input[name="voie"]:checked') || {}).value,
+    specPremiere: val('specPremiere'), hg1ere: val('hg1ere'), hgTerm: val('hgTerm'),
+    lva1ere: val('lva1ere'), lvaTerm: val('lvaTerm'), lvb1ere: val('lvb1ere'), lvbTerm: val('lvbTerm'),
+    sci1ere: val('sci1ere'), sciTerm: val('sciTerm'), epsCcf: val('epsCcf'),
+    emc1ere: val('emc1ere'), emcTerm: val('emcTerm'),
+    francaisEcrit: val('francaisEcrit'), francaisOral: val('francaisOral'), mathsAnticipees: val('mathsAnticipees'),
+    spec1: val('spec1'), spec2: val('spec2'), philo: val('philo'), grandOral: val('grandOral'),
+    optionsOn: document.getElementById('opt-options').classList.contains('on'),
+    rattrapageOn: document.getElementById('opt-rattrapage').classList.contains('on'),
+    optStdCount: val('optStdCount'),
+    oral1Matiere: val('oral1Matiere'), oral1Note: val('oral1Note'),
+    oral2Matiere: val('oral2Matiere'), oral2Note: val('oral2Note')
+  };
+}
+
+function loadStorage() {
+  try {
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return;
+    var s = JSON.parse(raw);
+    function set(id, v) { var e = document.getElementById(id); if (e && v !== undefined && v !== '') e.value = v; }
+    set('sessionSelect', s.session);
+    if (s.voie) { var r = document.querySelector('input[name="voie"][value="' + s.voie + '"]'); if (r) r.checked = true; }
+    set('specPremiere', s.specPremiere); set('hg1ere', s.hg1ere); set('hgTerm', s.hgTerm);
+    set('lva1ere', s.lva1ere); set('lvaTerm', s.lvaTerm); set('lvb1ere', s.lvb1ere); set('lvbTerm', s.lvbTerm);
+    set('sci1ere', s.sci1ere); set('sciTerm', s.sciTerm); set('epsCcf', s.epsCcf);
+    set('emc1ere', s.emc1ere); set('emcTerm', s.emcTerm);
+    set('francaisEcrit', s.francaisEcrit); set('francaisOral', s.francaisOral); set('mathsAnticipees', s.mathsAnticipees);
+    set('spec1', s.spec1); set('spec2', s.spec2); set('philo', s.philo); set('grandOral', s.grandOral);
+    if (s.optionsOn) { document.getElementById('opt-options').classList.add('on'); document.getElementById('opt-options').querySelector('.opt-toggle').setAttribute('aria-expanded','true'); }
+    if (s.rattrapageOn) { document.getElementById('opt-rattrapage').classList.add('on'); document.getElementById('opt-rattrapage').querySelector('.opt-toggle').setAttribute('aria-expanded','true'); }
+    if (s.optStdCount) { set('optStdCount', s.optStdCount); buildOptRows(); }
+    set('oral1Matiere', s.oral1Matiere); set('oral1Note', s.oral1Note);
+    set('oral2Matiere', s.oral2Matiere); set('oral2Note', s.oral2Note);
+  } catch(e) {}
+}
+
+function loadFromURL() {
+  if (location.search.length <= 1) return false;
+  try {
+    var params = new URLSearchParams(location.search);
+    var found = false;
+    function setP(id, key) { var v = params.get(key); if (v !== null) { var e = document.getElementById(id); if (e) { e.value = v; found = true; } } }
+    var session = params.get('session');
+    if (session) { var el = document.getElementById('sessionSelect'); if (el) { el.value = session; found = true; } }
+    var voie = params.get('voie');
+    if (voie) { var r = document.querySelector('input[name="voie"][value="' + voie + '"]'); if (r) { r.checked = true; found = true; } }
+    ['specPremiere','hg1ere','hgTerm','lva1ere','lvaTerm','lvb1ere','lvbTerm','sci1ere','sciTerm','epsCcf','emc1ere','emcTerm',
+     'francaisEcrit','francaisOral','mathsAnticipees','spec1','spec2','philo','grandOral'].forEach(function(id) { setP(id, id); });
+    return found;
+  } catch(e) { return false; }
+}
+
+/* =============================================================
+   SHARE / PDF
+============================================================= */
+function shareURLAction() {
+  var state = gatherState();
+  var params = new URLSearchParams();
+  params.set('session', state.session || '2026');
+  params.set('voie', state.voie || 'generale');
+  ['specPremiere','hg1ere','hgTerm','lva1ere','lvaTerm','lvb1ere','lvbTerm','sci1ere','sciTerm','epsCcf','emc1ere','emcTerm',
+   'francaisEcrit','francaisOral','mathsAnticipees','spec1','spec2','philo','grandOral'].forEach(function(id) {
+    if (state[id]) params.set(id, state[id]);
+  });
+  var url = location.origin + location.pathname + '?' + params.toString();
+  var sf = document.getElementById('shareField');
+  var si = document.getElementById('shareUrl');
+  sf.style.display = 'flex';
+  si.value = url;
+  si.select();
+}
+
+function copyURL() {
+  var si = document.getElementById('shareUrl');
+  if (navigator.clipboard) { navigator.clipboard.writeText(si.value).then(function() { showToast('Lien copié !'); }); }
+  else { si.select(); document.execCommand('copy'); showToast('Lien copié !'); }
+}
+
+function exportPDF(btn) {
+  if (!lastResult) { showToast('Calculez d\'abord votre simulation'); return; }
+  if (typeof window.jspdf === 'undefined') { showToast('Module PDF non chargé'); return; }
+  var orig = btn.innerHTML;
+  btn.innerHTML = '<span class="ui-icon" data-icon="pdf.svg" aria-hidden="true"></span> Génération...';
+  btn.disabled = true;
+  try {
+    var doc = new window.jspdf.jsPDF({ unit: 'mm', format: 'a4' });
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(18);
+    doc.text('Simulation de moyenne — Baccalauréat', 20, 20);
+    doc.setFontSize(11);
+    doc.setFont('helvetica', 'normal');
+    doc.text('Session : ' + lastResult.session + ' | Voie : ' + lastResult.voie, 20, 30);
+    doc.text('Moyenne estimée : ' + (lastResult.complete ? lastResult.moyenne.toFixed(2) : '—') + '/20', 20, 40);
+    doc.text('Total points : ' + (lastResult.complete ? Math.round(lastResult.totalPts * 10) / 10 : '—') + ' / ' + lastResult.totalCoeff + ' coefficients', 20, 48);
+    doc.text('Statut estimé : ' + lastResult.statut, 20, 56);
+    doc.text('Mention estimée : ' + lastResult.mention, 20, 64);
+    if (lastResult.moyenneRattrapage !== null) {
+      doc.text('Moyenne après rattrapage : ' + lastResult.moyenneRattrapage.toFixed(2) + '/20', 20, 72);
+    }
+    doc.setFontSize(9);
+    doc.setTextColor(120);
+    doc.text('Ce simulateur fournit une estimation informative. La délibération du jury est souveraine.', 20, 90);
+    doc.text('Généré le ' + new Date().toLocaleDateString('fr-FR') + ' — calculateur-note-bac.fr', 20, 96);
+    doc.save('simulation-bac-' + new Date().toISOString().slice(0,10) + '.pdf');
+    showToast('PDF téléchargé');
+  } catch(e) { showToast('Erreur PDF'); }
+  btn.innerHTML = orig;
+  btn.disabled = false;
+  hydrateIcons();
+}
+
+/* =============================================================
+   TOAST / MODAL
+============================================================= */
+var toastTimer = null;
+function showToast(msg) {
+  var t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(function() { t.classList.remove('show'); }, 2600);
+}
+
+function openModal() { document.getElementById('sourcesModal').classList.add('open'); buildSources(); buildLinks(); }
+function closeModal() { document.getElementById('sourcesModal').classList.remove('open'); }
+function closeModalOverlay(e) { if (e.target === document.getElementById('sourcesModal')) closeModal(); }
+
+function switchModalTab(tab, btn) {
+  document.querySelectorAll('.modal-pane').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.modal-tab').forEach(function(b) { b.classList.remove('active'); });
+  document.getElementById('pane-' + tab).classList.add('active');
+  btn.classList.add('active');
+}
+
+function buildSources() {
+  var tbody = document.getElementById('sourcesBody');
+  if (tbody.innerHTML) return;
+  var h = '';
+  SOURCES.forEach(function(s) {
+    h += '<tr><td>' + s.n + '</td><td><span class="rate-pill">' + s.t + '</span></td><td>' + s.a + '</td>';
+    h += '<td><a href="' + s.u + '" target="_blank" rel="noopener noreferrer">' + s.s + '</a></td><td>' + s.d + '</td></tr>';
+  });
+  tbody.innerHTML = h;
+}
+
+function buildLinks() {
+  var zone = document.getElementById('linksZone');
+  if (zone.innerHTML) return;
+  var h = '';
+  SOURCE_LINKS.forEach(function(l) {
+    h += '<div class="link-card"><div><div class="lc-title">' + l.t + '</div><div class="lc-desc">' + l.d + '</div></div>';
+    h += '<a class="lc-link" href="' + l.u + '" target="_blank" rel="noopener noreferrer">Consulter &rarr;</a></div>';
+  });
+  zone.innerHTML = h;
+}
+
+/* =============================================================
+   THEME
+============================================================= */
+function toggleTheme() {
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? '' : 'dark');
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  updateThemeIcon();
+}
+function updateThemeIcon() {
+  var icon = document.getElementById('themeIcon');
+  if (!icon) return;
+  var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  icon.setAttribute('data-icon', isDark ? 'theme-light.svg' : 'theme-dark.svg');
+  updateSourcesIcon(isDark);
+  hydrateIcons();
+}
+function updateSourcesIcon(isDark) {
+  var icon = document.getElementById('sourcesIcon');
+  if (!icon) return;
+  icon.setAttribute('data-icon', isDark ? 'sources-dark.svg' : 'sources.svg');
+}
+
+/* =============================================================
+   COOKIES
+============================================================= */
+function loadCookiePreferences() {
+  try {
+    var raw = localStorage.getItem(COOKIE_KEY);
+    if (raw) { cookies = JSON.parse(raw) || { essential: true }; return; }
+    setTimeout(function() { var b = document.getElementById('cookieBanner'); if (b) b.classList.add('show'); }, 1500);
+  } catch(e) {
+    setTimeout(function() { var b = document.getElementById('cookieBanner'); if (b) b.classList.add('show'); }, 1500);
+  }
+}
+function saveCookiePreferences() { try { localStorage.setItem(COOKIE_KEY, JSON.stringify(cookies)); } catch(e) {} }
+function closeCookieBanner() { var b = document.getElementById('cookieBanner'); if (b) b.classList.remove('show'); }
+function acceptAllCookies()  { cookies = { essential: true }; saveCookiePreferences(); closeCookieBanner(); showToast('Préférences enregistrées'); }
+function rejectCookies()     { cookies = { essential: true }; saveCookiePreferences(); closeCookieBanner(); showToast('Préférences enregistrées'); }
+function openCookieSettingsModal()  { document.getElementById('cookieSettingsModal').classList.add('open'); closeCookieBanner(); document.body.style.overflow = 'hidden'; }
+function closeCookieSettingsModal() { document.getElementById('cookieSettingsModal').classList.remove('open'); document.body.style.overflow = ''; }
+function closeCookieModalOverlay(e) { if (e.target === document.getElementById('cookieSettingsModal')) closeCookieSettingsModal(); }
+function saveFromModal()      { cookies.essential = true; saveCookiePreferences(); closeCookieSettingsModal(); showToast('Préférences enregistrées'); }
+function rejectAllFromModal() { cookies = { essential: true }; saveCookiePreferences(); closeCookieSettingsModal(); showToast('Préférences enregistrées'); }
+
+/* =============================================================
+   INIT
+============================================================= */
+document.addEventListener('DOMContentLoaded', function() {
+  var urlLoaded = location.search.length > 1 && loadFromURL();
+  if (!urlLoaded) loadStorage();
+
+  onSessionChange();
+  buildOptRows();
+  recalc();
+  loadCookiePreferences();
+  updateThemeIcon();
+
+  var acceptBtn   = document.getElementById('cookieAccept');
+  var rejectBtn   = document.getElementById('cookieReject');
+  var settingsBtn = document.getElementById('cookieSettings');
+  if (acceptBtn)   acceptBtn.addEventListener('click', acceptAllCookies);
+  if (rejectBtn)   rejectBtn.addEventListener('click', rejectCookies);
+  if (settingsBtn) settingsBtn.addEventListener('click', openCookieSettingsModal);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { closeModal(); closeCookieSettingsModal(); }
+  });
+
+  hydrateIcons();
+
+  window.__CALC_STATE__ = {
+    meta:       SITE_META,
+    lastResult: function() { return lastResult; },
+    recalc:     recalc
+  };
+});
+</script>
+</body>
+</html>
