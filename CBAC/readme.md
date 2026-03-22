@@ -1,84 +1,85 @@
-# NoteBac — Simulateur de moyenne du baccalauréat
+# Simulateur Bac
 
-**Domaine :** calculateur-note-bac.fr  
-**Langue :** Français  
-**Catégorie :** education  
-**Accent :** #0F766E (teal)
+> Simulateur de moyenne du baccalauréat gratuit — coefficients officiels 2026–2027  
+> Domaine : https://bac.wecalc.fr · Langue : fr · Catégorie : Éducation · Accent : `#0F766E`
 
-## Description
+## Fonctionnalités
 
-Simulateur de moyenne du baccalauréat général et technologique standard, déployé sur Cloudflare Pages via GitHub.
+- Calcul de la moyenne générale au baccalauréat général (EG, spécialités, Grand Oral, options) avec coefficients officiels 2026–2027
+- Calcul de la moyenne au baccalauréat technologique (toutes séries STI2D, STMG, ST2S, STL, STAV, STD2A, STHR) avec coefficients par série
+- Détection automatique de la mention (Sans mention, Assez Bien, Bien, Très Bien) et du seuil de rattrapage
+- Simulation d'objectifs : calcul de la note minimale à obtenir dans une matière pour atteindre une mention cible
+- Partage de résultat par URL encodée, export PDF, dark mode, cookie banner RGPD, responsive mobile
+- 4 blocs JSON-LD : `WebApplication`, `WebSite`, `BreadcrumbList`, `FAQPage` — rich results Google activés
 
-- Session 2026 : coefficients en vigueur, Grand oral 10 (G) / 14 (T)
-- Session 2027+ : mathématiques anticipées (coeff. 2), Grand oral abaissé à 8 (G) / 12 (T)
-- Contrôle continu obligatoire (40 %) avec arrondi réglementaire au dixième supérieur
-- Épreuves anticipées et terminales (60 %) avec coefficients officiels par voie
-- Options facultatives : jusqu'à 4 options standard + latin + grec, scope 1re / terminale / les deux
-- Simulation du rattrapage (second groupe) : substitution oral > écrit sur 2 matières distinctes
-- Seuils & écarts : points manquants vers 8 / 10 / 12 / 14 / 16 / 18
-
-## Structure
+## Structure des fichiers
 
 ```
-calculateur-note-bac/
-├── index.html             Calculateur principal
-├── confidentialite.html   Mentions légales, RGPD, conditions, contact
-├── 404.html               Page d'erreur
-├── _headers               En-têtes de sécurité Cloudflare
+CBAC/
+├── index.html
+├── confidentialite.html
+├── 404.html
+├── _headers
 ├── robots.txt
 ├── sitemap.xml
 ├── readme.md
-├── favicon.png            32×32 — à produire (voir Assets graphiques)
-├── apple-touch-icon.png   180×180 — à produire (voir Assets graphiques)
-├── og-image.png           1200×630 — à produire (voir Assets graphiques)
+├── favicon.png
+├── apple-touch-icon.png
+├── og-image.png
 └── assets/
     └── icons/
-        ├── warning.svg
+        ├── logo-fibo4.svg
+        ├── bonus.svg
+        ├── europe.svg
+        ├── exam.svg
+        ├── france.svg
         ├── info.svg
-        ├── error.svg
-        ├── success.svg
-        ├── share.svg
         ├── pdf.svg
+        ├── share.svg
         ├── sources.svg
         ├── sources-dark.svg
+        ├── success.svg
         ├── theme-dark.svg
         ├── theme-light.svg
-        └── france.svg
+        └── warning.svg
 ```
 
-## Icônes
+## Icônes SVG requises
 
-Installer les fichiers SVG dans `/assets/icons/` avant déploiement.
-
-## Assets graphiques
-
-Ces fichiers ne sont pas générés automatiquement. Ils sont à créer avant déploiement.
-
-| Fichier | Dimensions | Contenu |
-|---|---|---|
-| `favicon.png` | 32×32 px | Fond `#0F766E` (teal), lettres **NB** en blanc, bold, centré |
-| `apple-touch-icon.png` | 180×180 px | Même design que favicon — iOS ajoute automatiquement les coins arrondis |
-| `og-image.png` | 1200×630 px | Fond `#dde6ef`, card blanche centrée avec logo NB + "Simulateur Bac" + "Calculateur de moyenne officiel 2026–2027" |
-
-Générateur recommandé : [realfavicongenerator.net](https://realfavicongenerator.net)
+Installer dans `/assets/icons/` : `logo-fibo4.svg`, `bonus.svg`, `europe.svg`, `exam.svg`, `france.svg`, `info.svg`, `pdf.svg`, `share.svg`, `sources.svg`, `sources-dark.svg`, `success.svg`, `theme-dark.svg`, `theme-light.svg`, `warning.svg`
 
 ## Sources des données
 
-- Ministère de l'Éducation nationale — Comment calculer votre note au baccalauréat (03/12/2025)
-- Éduscol — Le contrôle continu des candidats scolaires au baccalauréat général ou technologique
-- Éduscol — Les épreuves terminales du baccalauréat général
-- Éduscol — Les épreuves terminales du baccalauréat technologique
-- Légifrance — Code de l'éducation, art. D334-8 et D336-8
-- Décret n°2025-513 du 10 juin 2025 (réforme session 2027)
-- Décret n°2025-1159 du 4 décembre 2025 (points jury, session 2026)
+| Source | Organisme | URL | Vérifié le |
+|--------|-----------|-----|------------|
+| Coefficients baccalauréat général 2026–2027 | Ministère de l'Éducation nationale | https://www.education.gouv.fr/le-baccalaureat-general-36467 | 2026-03-19 |
+| Coefficients baccalauréats technologiques 2026–2027 | Ministère de l'Éducation nationale | https://www.education.gouv.fr/le-baccalaureat-technologique-36468 | 2026-03-19 |
+| Règles de mention et de rattrapage | Ministère de l'Éducation nationale | https://www.education.gouv.fr | 2026-03-19 |
+| Épreuves du Grand Oral — coefficient et modalités | Ministère de l'Éducation nationale | https://www.education.gouv.fr/le-grand-oral-326198 | 2026-03-19 |
 
 ## Déploiement
 
-Push sur GitHub → Cloudflare Pages build automatique.  
-Aucun outil de build requis — HTML/CSS/JS pur.
+Push GitHub → Cloudflare Pages. Aucun outil de build. Le dossier `CBAC/` est la racine du site.
+
+```bash
+git add .
+git commit -m "update: [description courte]"
+git push origin main
+```
+
+Cloudflare Pages détecte le push et redéploie automatiquement en ~30 secondes.
 
 ## Mise à jour des données
 
-Vérifier les coefficients au minimum 1 fois par an avant chaque session.  
-Surveiller tout décret, arrêté ou note de service modifiant les coefficients, seuils ou structure d'épreuve.  
-Prochaine vérification recommandée : mars 2027.
+- Fréquence recommandée : annuelle — vérifier en septembre (arrêtés ministériels de rentrée scolaire)
+- Prochaine vérification : septembre 2026
+- Fichiers à mettre à jour : `index.html` (coefficients dans `CFG`, année scolaire dans le title), `sitemap.xml` (`lastmod`)
+
+## Assets graphiques à produire manuellement
+
+| Fichier | Dimensions | Contenu |
+|---------|------------|---------|
+| `favicon.png` | 32×32 px | Fond `#0F766E`, lettres **NB** en blanc, bold, centré |
+| `apple-touch-icon.png` | 180×180 px | Même design — iOS arrondit automatiquement les coins |
+| `og-image.png` | 1200×630 px | Fond `#dde6ef`, card blanche centrée : logo + "Simulateur Bac 2026–2027 — Calcul de moyenne officiel, mention et rattrapage" |
+
